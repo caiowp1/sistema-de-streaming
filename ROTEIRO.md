@@ -92,6 +92,8 @@ app/           aplicação da fase de portfólio
 
 ## Estado da modelagem e pendências
 
+Atualização em 15/11/2026: a versão mais recente foi revisada e transcrita em [docs/modelo-conceitual.md](docs/modelo-conceitual.md), que passa a ser a referência atual para entidades, atributos e cardinalidades. Cliente possui 1 a N assinaturas no histórico, Plano possui nome e valor mensal, Avalia possui nota e data. As regras ainda propostas estão identificadas no documento. O levantamento abaixo preserva o histórico inicial; consultar o documento atual para separar o que já foi resolvido do que continua pendente.
+
 Base recebida: plano, usuário, filme, região, sessão, gênero e assinatura. Relacionamentos: usuário realiza assinatura; assinatura se refere a plano; usuário inicia sessão; sessão exibe filme; filme pertence a gênero; usuário favorita filme; usuário avalia filme; usuário pertence a região; filme está disponível em região.
 
 Essa base é um ponto de partida, não um diagrama final validado. Resolver no chat de modelagem:
@@ -135,5 +137,7 @@ Qualidade demonstrável: documentação das escolhas, integridade no banco, flux
 Stack de API/interface, autenticação, hospedagem e ferramentas serão escolhidas depois de conhecer experiência, objetivo de aprendizado e prazo. O MySQL já está determinado pelo trabalho. Não construir a aplicação nesta etapa de planejamento.
 
 ## Próxima ação
+
+Prioridade atual (15/11/2026): produzir o esquema relacional em texto e verificar 1FN, 2FN e 3FN, consolidando as regras pendentes do modelo conceitual antes do DDL MySQL. A imagem original do diagrama permanece no chat e ainda precisa ser incorporada ao repositório. O parágrafo abaixo descreve a etapa inicial, anterior à revisão atual.
 
 Completar o contexto da modelagem e iniciar a definição de atributos e cardinalidades. O restante do histórico pode ser anexado em texto ou PDF; priorizar decisões, justificativas e dúvidas que não aparecem no trecho já recebido. Disponibilidade diária ainda não informada; usar o calendário como meta inicial, sem presumir carga horária disponível.
