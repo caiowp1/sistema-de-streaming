@@ -1,0 +1,22 @@
+# Credenciais e configuracoes locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.codex/
+.aws/
+
+# Dependencias e arquivos temporarios
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.DS_Store
+Thumbs.db
+tmp/
+*.log
+
+# Dados locais do MySQL (compartilhar estrutura e gerador por codigo)
+mysql-data/
