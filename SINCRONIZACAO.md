@@ -2,7 +2,7 @@
 
 ## Primeira configuração
 
-Repositório privado: https://github.com/caiowp1/sistema-de-streaming. No segundo computador, após a confirmação do primeiro envio:
+Repositório privado: https://github.com/caiowp1/sistema-de-streaming. Primeiro envio confirmado em 15/11/2026. No segundo computador:
 
 1. Instalar o Git, caso ainda não esteja instalado, e autenticar a conta GitHub.
 2. Clonar o repositório privado:

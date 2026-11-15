@@ -8,18 +8,19 @@ Atualizado em 15/11/2026.
 - Roteiro, calendário e organização dos chats registrados em ROTEIRO.md.
 - Base inicial recebida do Claude: plano, usuário, filme, região, sessão, gênero e assinatura; favoritos e avaliações como relacionamentos com atributos.
 - Preparados arquivos de orientação para alternar entre computadores.
+- Repositório privado criado e primeiro commit enviado ao GitHub: https://github.com/caiowp1/sistema-de-streaming.
+- Branch main configurada para acompanhar origin/main; primeiro commit e4415ac.
 
 ## Em andamento
 
 - Repositório Git local inicializado na branch main; gravações em .git exigem autorização do ambiente.
-- Repositório privado criado: https://github.com/caiowp1/sistema-de-streaming. Primeiro envio em preparação. Conector GitHub conectado, mas acesso ao novo repositório ainda não confirmado (consulta retornou 404).
+- Conector GitHub conectado, mas acesso ao novo repositório ainda não confirmado (consulta retornou 404). Envio pelo Git funcionou.
 - Pasta ativa em 15/11: C:\Users\caioc\Documents\ChatGPT\sistema de streaming. Os seis arquivos de orientação foram copiados da pasta anterior, preservando os originais.
 
 ## Próximas ações
 
-1. Concluir primeiro commit e envio ao repositório privado; verificar sincronização.
-2. Clonar o repositório no computador principal e abrir a pasta no Codex.
-3. Completar atributos, cardinalidades e regras de negócio; ver pendências em ROTEIRO.md.
+1. Clonar o repositório no computador principal e abrir a pasta no Codex.
+2. Completar atributos, cardinalidades e regras de negócio; ver pendências em ROTEIRO.md.
 
 ## Contexto necessário
 
