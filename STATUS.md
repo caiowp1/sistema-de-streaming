@@ -1,3 +1,27 @@
+# Decisões aprovadas — 15/11/2026, preparação do DDL
+
+Este registro consolida as regras aprovadas pelo aluno e prevalece sobre menções anteriores a essas mesmas regras como pendentes, inclusive no conceitual e no esquema relacional. Não significa que o DDL já foi implementado.
+
+| Item | Regra aprovada |
+| --- | --- |
+| Identificação do cliente | CLIENTE.id permanece como PK. Todas as FKs existentes continuam referenciando esse id. |
+| Email | Obrigatório e único (NOT NULL e UNIQUE), chave candidata alternativa. Pode ser alterado sem mudar as referências ao cliente. |
+| Avaliação | Nota inteira de 1 a 5; uma avaliação atual por par cliente/filme. |
+| Duração | Duração de filme e sessão em minutos, com valores positivos. |
+| Qualidade | Valores SD, HD, FULL_HD e 4K, ordenados nessa sequência para validar limites. |
+| Assinatura | Término pode ser nulo; quando preenchido, deve ser posterior ao início. |
+| Troca de plano | Novo registro no histórico de assinaturas; não permitir períodos sobrepostos para o mesmo cliente. |
+| Cliente ativo | Possui assinatura vigente na data de referência. |
+| Sessão | Exige assinatura vigente, filme disponível na região do cliente e qualidade usada dentro do limite do plano. |
+| Região do consumo | Região de residência do cliente, considerada fixa no escopo acadêmico. |
+
+A confirmação de email como chave candidata alternativa não altera a validação até a 3FN: email determina os demais atributos de CLIENTE e é uma chave. Cliente.id continua sendo a chave primária escolhida.
+
+Próximo passo: preparar o DDL MySQL com essas regras e definir sua forma de implementação. Sobreposição de assinaturas, vigência, disponibilidade e comparação de qualidade exigem validações além das FKs. Tamanhos dos campos e versão do MySQL de avaliação ainda serão definidos/conferidos; convenção exata dos limites dos intervalos de vigência será explicitada na implementação. Demais ambiguidades das consultas registradas no conceitual permanecem pendentes.
+
+---
+
+
 # Atualização — 15/11/2026, normalização até a 3FN
 
 Este registro tem precedência sobre os estados históricos abaixo.
