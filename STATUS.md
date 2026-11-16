@@ -1,3 +1,18 @@
+# Atualização — 15/11/2026, normalização até a 3FN
+
+Este registro tem precedência sobre os estados históricos abaixo.
+
+- Análise de 1FN, 2FN e 3FN concluída em [docs/modelo-relacional.md](docs/modelo-relacional.md), junto ao esquema textual.
+- Base: 06 - As Formas Normais.pdf do professor, páginas 3–12. Registradas dependências funcionais das 11 relações, chaves simples e compostas, premissas e justificativas.
+- Resultado: as 11 relações atendem à 3FN sob as dependências documentadas. Não foi necessária decomposição adicional nem alteração estrutural do desenho.
+- Premissas: uma produtora e um idioma original por filme; nome de região não globalmente único; avaliação e favorito atuais por par cliente/filme. Eventual email obrigatório e único será chave candidata alternativa. Mudanças nessas regras exigem reavaliar a análise.
+- Imagem dos modelos enviada pelo aluno, conforme informado nesta sessão.
+- Próximo passo: consolidar domínios e regras pendentes do conceitual, definir restrições e produzir o DDL MySQL. Normalização não substitui essas validações.
+- Banco, gerador e consultas ainda não implementados.
+
+---
+
+
 # Atualização — 15/11/2026, esquema relacional
 
 Este registro tem precedência sobre os estados históricos abaixo.
