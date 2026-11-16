@@ -1,3 +1,18 @@
+# Atualização — 15/11/2026, esquema relacional
+
+Este registro tem precedência sobre os estados históricos abaixo.
+
+- Esquema relacional em texto publicado em [docs/modelo-relacional.md](docs/modelo-relacional.md), com 11 relações, PKs simples e compostas, 13 referências de FKs e justificativa do mapeamento 1:N e N:N.
+- Conferidos os atributos e as chaves com o modelo lógico revisado no brModelo. Qualidade é textual, ano de lançamento é inteiro e quantidade de dispositivos permanece em Plano.
+- Valor mensal será DECIMAL(10,2) no DDL MySQL; FLOAT no desenho decorre das opções disponíveis no editor.
+- A imagem conceitual já existe em docs/image.png. O aluno adicionará a imagem do modelo relacional em docs. PDFs permanecem fora do repositório.
+- Publicação realizada pela interface web do GitHub: a integração recusou gravação com HTTP 403 e o Git no terminal falhou por rede.
+- Próximo passo: revisar dependências funcionais e justificar 1FN, 2FN e 3FN, consolidar domínios e regras pendentes do conceitual e então produzir o DDL MySQL.
+- Banco, gerador, consultas SQL e aplicação ainda não implementados. A normalização ainda não foi concluída.
+
+---
+
+
 # Estado do projeto
 
 ## Estado atual — 15/11/2026, após revisão do modelo
