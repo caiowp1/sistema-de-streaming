@@ -1,3 +1,11 @@
+# Atualização — 17/11/2026, ordem das chaves reconciliada
+
+- Ajustado sql/criacao.sql: AVALIA e FAVORITA usam a ordem (id_cliente, id_filme) nas colunas, na PK composta e na apresentação das FKs, conforme docs/modelo-relacional.md. Referências e regra de unicidade do par preservadas.
+- Verificação: diff do SQL conferido e git diff --check sem erros. O script alterado não foi reexecutado no MySQL; bancos já criados não são modificados pela edição do arquivo.
+- Próximo passo: completar verificações relevantes e planejar o gerador e os cenários das consultas. A divergência de ordem mencionada no registro histórico abaixo foi resolvida no arquivo.
+
+---
+
 # Atualização — 17/11/2026, criação e testes iniciais do banco
 
 - Script de criação em [sql/criacao.sql](sql/criacao.sql), transcrito do script apresentado pelo aluno; contém somente a criação do banco e das 11 tabelas. MySQL local: 8.0.46. O aluno executou a criação no Workbench e `SHOW TABLES` confirmou as 11 tabelas.

@@ -84,20 +84,20 @@ CREATE TABLE filme_regiao (
 );
 
 CREATE TABLE avalia (
-    id_filme INT NOT NULL,
     id_cliente INT NOT NULL,
-    PRIMARY KEY (id_filme, id_cliente),
-    FOREIGN KEY (id_filme) REFERENCES filme (id),
+    id_filme INT NOT NULL,
+    PRIMARY KEY (id_cliente, id_filme),
     FOREIGN KEY (id_cliente) REFERENCES cliente (id),
+    FOREIGN KEY (id_filme) REFERENCES filme (id),
     data DATE NOT NULL,
     nota INT NOT NULL CHECK (nota BETWEEN 1 AND 5)
 );
 
 CREATE TABLE favorita (
-    id_filme INT NOT NULL,
     id_cliente INT NOT NULL,
-    PRIMARY KEY (id_filme, id_cliente),
-    FOREIGN KEY (id_filme) REFERENCES filme (id),
+    id_filme INT NOT NULL,
+    PRIMARY KEY (id_cliente, id_filme),
     FOREIGN KEY (id_cliente) REFERENCES cliente (id),
+    FOREIGN KEY (id_filme) REFERENCES filme (id),
     data DATE NOT NULL
 );
