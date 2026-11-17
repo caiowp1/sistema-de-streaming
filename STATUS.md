@@ -1,3 +1,13 @@
+# Atualização — 17/11/2026, preparação do gerador
+
+- Dois enunciados relidos. Linguagem livre, bibliotecas permitidas, MySQL e arquivos de texto semente; nenhum número mínimo de registros explícito.
+- Aluno confirmou preservação do histórico de assinaturas na troca de plano: encerrar o período anterior e inserir outro registro, sem excluir a assinatura antiga.
+- Interpretação da consulta 5 sugerida pelo aluno: consumo global dos filmes disponíveis em Y. Consulta 8 continua regional pela residência dos clientes.
+- Planejamento em docs/planejamento-gerador.md: convenção de vigência, interpretação regional, propostas para data de referência, Python/Faker/conector MySQL, escala e coerência dos cenários. Propostas de linguagem, escala e períodos relativos ainda não são decisões confirmadas pelo aluno.
+- Próximo passo: consolidar essas propostas e implementar o gerador. Ainda não há código de população nem instalação de dependências nesta etapa.
+
+---
+
 # Atualização — 17/11/2026, ordem das chaves reconciliada
 
 - Ajustado sql/criacao.sql: AVALIA e FAVORITA usam a ordem (id_cliente, id_filme) nas colunas, na PK composta e na apresentação das FKs, conforme docs/modelo-relacional.md. Referências e regra de unicidade do par preservadas.
