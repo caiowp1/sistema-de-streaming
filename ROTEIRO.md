@@ -138,6 +138,8 @@ Stack de API/interface, autenticação, hospedagem e ferramentas serão escolhid
 
 ## Próxima ação
 
+Atualização em 17/11/2026: o arquivo [sql/criacao.sql](sql/criacao.sql) foi executado no Workbench e as 11 tabelas foram listadas. Consulte [STATUS.md](STATUS.md) para testes, limitações e pendências; o próximo foco é planejar o gerador e os cenários das consultas.
+
 Prioridade atual (15/11/2026): produzir o esquema relacional em texto e verificar 1FN, 2FN e 3FN, consolidando as regras pendentes do modelo conceitual antes do DDL MySQL. A imagem original do diagrama permanece no chat e ainda precisa ser incorporada ao repositório. O parágrafo abaixo descreve a etapa inicial, anterior à revisão atual.
 
 Completar o contexto da modelagem e iniciar a definição de atributos e cardinalidades. O restante do histórico pode ser anexado em texto ou PDF; priorizar decisões, justificativas e dúvidas que não aparecem no trecho já recebido. Disponibilidade diária ainda não informada; usar o calendário como meta inicial, sem presumir carga horária disponível.

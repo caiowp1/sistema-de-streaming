@@ -2,10 +2,10 @@
 
 - Script de criação em [sql/criacao.sql](sql/criacao.sql), transcrito do script apresentado pelo aluno; contém somente a criação do banco e das 11 tabelas. MySQL local: 8.0.46. O aluno executou a criação no Workbench e `SHOW TABLES` confirmou as 11 tabelas.
 - Testes observados no Workbench: preço zero, qualidade ULTRA, nota 6 e término anterior ao início rejeitados por CHECK; preço positivo, nota 5 e término NULL aceitos. FK rejeitou cliente com região inexistente e aceitou região existente; UNIQUE rejeitou email repetido; PK composta rejeitou avaliação duplicada. AUTO_INCREMENT gerou identificadores.
-- O banco local contém dados de teste; o script de criação não os contém. Para executá-lo, o banco de mesmo nome não deve existir. A versão transcrita no arquivo ainda precisa ser executada como arquivo e conferida.
+- Após os testes com dados, o aluno informou que recriou o banco executando o arquivo salvo no Workbench, sem erros; `SHOW TABLES` confirmou novamente as 11 tabelas. O script não contém dados. Para executá-lo, o banco de mesmo nome não deve existir. O conteúdo das tabelas após a recriação não foi conferido individualmente.
 - Decisão para a entrega: manter as 11 tabelas e simplificar as regras entre registros/tabelas; o gerador deverá produzir dados coerentes e verificações deverão conferir as regras. Sobreposição de assinaturas, vigência, disponibilidade regional e limite de qualidade não são garantidos pelo DDL atual. Limites de vigência ainda precisam ser definidos. Não há planos gratuitos.
 - A ordem da PK de AVALIA e FAVORITA no SQL executado é (id_filme, id_cliente); o esquema textual apresenta a ordem inversa. Ambas impedem pares duplicados, mas a diferença de ordem deve ser reconciliada e testada antes da entrega.
-- Próximo passo: conferir o arquivo SQL salvo e sua execução, completar verificações relevantes e documentar as regras atribuídas ao gerador; depois iniciar a população reproduzível e as consultas.
+- Próximo passo: reconciliar a ordem das chaves com o esquema textual, completar verificações relevantes e planejar o gerador, suas regras e cenários para as consultas.
 
 ---
 
