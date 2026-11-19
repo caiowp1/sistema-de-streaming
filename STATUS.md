@@ -1,3 +1,117 @@
+# Atualização — 19/11/2026, organização do gerador
+
+- Removidas as cópias SQL específicas de bancos de teste e o roteiro de teste de desempenho; resultados foram mantidos nos registros históricos abaixo. Permanecem o DDL único sql/criacao.sql e sql/verificacao_carga.sql, que requer seleção explícita do banco antes da execução.
+- Adicionados requirements.txt com versões instaladas e docs/manual-gerador.md com instalação, carga e verificação; README atualizado. Código permanece dividido em configuração, sementes, catálogo, clientes, sessões, geração e carga MySQL. Nenhum banco foi alterado nesta organização.
+- Após a organização, geração de 500 filmes, 1.000 clientes e 50.000 sessões reproduziu as contagens anteriores; inserção verificada com conexão simulada. Carga real não foi repetida.
+- Próximos passos: verificar integralmente o manual em Linux e validar as dez consultas. Referências a scripts removidos nos registros abaixo são históricas.
+
+---
+
+# Atualização — 19/11/2026, verificações do catálogo ampliado
+
+- O aluno executou sql/verificacao_catalogo.sql no Workbench sobre sistema_streaming_catalogo. Todas as 12 contagens de problemas retornaram zero para a carga de 500 filmes, 1.000 clientes e 50.000 sessões.
+- A verificação cobre as regras listadas no script, não garante cobertura de todos os cenários das dez consultas. Permanecem a documentação do gerador, a reprodução em Linux e a validação dos cenários das consultas.
+
+---
+
+# Atualização — 19/11/2026, carga do catálogo ampliado no MySQL
+
+- O aluno carregou sistema_streaming_catalogo e confirmou via SELECT 1.000 clientes, 500 filmes e 50.000 sessões. O programa informou geração em 5,71 s e inserção/commit em 26,09 s nesta execução local.
+- Demais contagens informadas pelo programa: 5 regiões, 3 planos, 8 gêneros, 508 relações filme-gênero, 1.518 filme-região, 1.333 assinaturas, 2.021 avaliações e 1.997 favoritos. A saída de sql/verificacao_catalogo.sql ainda não foi apresentada; conferir antes de considerar as regras validadas no banco.
+
+---
+
+# Atualização — 19/11/2026, preparação do teste do catálogo ampliado
+
+- Preparados sql/criacao_catalogo.sql e sql/verificacao_catalogo.sql para testar a carga com 500 filmes no banco separado sistema_streaming_catalogo. A criação e a carga nesse banco ainda dependem de execução pelo aluno.
+
+---
+
+# Atualização — 19/11/2026, catálogo ampliado
+
+- seeds/filmes.csv ampliado de 12 para 500 filmes fictícios, preservando os 12 originais; 488 títulos e sinopses adicionais foram criados por combinações de temas, lugares e descrições. Isso é dado sintético e tem repetição de fórmulas narrativas, não um catálogo de obras reais.
+- Conferidos unicidade dos títulos e limites de tamanho. Geração em memória com 500 filmes, 1.000 clientes e 50.000 sessões concluída; verificados vigência, disponibilidade, limite de qualidade, duração e ano de lançamento das sessões.
+- As cargas existentes no MySQL continuam com 12 filmes; a carga ampliada ainda não foi inserida nem verificada no SGBD. Próximo passo: testar em banco vazio separado e conferir as regras e os tempos, sem apagar os bancos existentes.
+
+---
+
+# Atualização — 19/11/2026, contagens do teste de volume confirmadas
+
+- Consulta direta no Workbench ao banco sistema_streaming_desempenho confirmou 1.000 clientes, 12 filmes e 50.000 sessões. As demais contagens continuam sendo as informadas pelo programa.
+- Próximos passos: ampliar o catálogo atualmente limitado a 12 filmes, preparar cenários para as consultas e concluir manual e verificação de execução em Linux.
+
+---
+
+# Atualização — 19/11/2026, teste de volume no MySQL
+
+- No banco separado sistema_streaming_desempenho, o aluno executou carga de 1.000 clientes e 50.000 sessões: geração em 1,22 s; inserção e commit em 31,99 s. São tempos de uma execução local, não benchmark comparativo.
+- Programa informou 5 regiões, 3 planos, 8 gêneros, 12 filmes, 1.000 clientes, 20 relações filme-gênero, 38 filme-região, 1.333 assinaturas, 50.000 sessões, 2.036 avaliações e 2.031 favoritos. Essas contagens foram exibidas pelo programa, não conferidas individualmente por SELECT.
+- Aluno executou sql/verificacao_desempenho.sql no Workbench: as 12 verificações retornaram zero problemas. Próximos passos: conferir contagens diretamente no banco; ampliar catálogo e cenários; documentar manual e testar procedimento Linux. Preservar ambos os bancos existentes.
+
+---
+
+# Atualização — 19/11/2026, preparação do teste de volume
+
+- Carga aceita parâmetros de banco, clientes e sessões e informa tempos separados de geração e inserção/commit. Configuração de teste: 1.000 clientes e 50.000 sessões, ainda com apenas 12 filmes de semente.
+- Criados sql/criacao_desempenho.sql e sql/verificacao_desempenho.sql para banco separado; procedimento em docs/teste-desempenho.md. Geração em memória produziu 1.000 clientes e 50.000 sessões em cerca de 1,26 s neste ambiente, com um par cliente/dia por sessão.
+- Ainda não foi executada a carga de volume no MySQL, nem medidas a inserção e verificações dessa carga. Próximo passo: aluno executar o procedimento no banco de desempenho e registrar resultados. O catálogo de 500 filmes proposto no planejamento permanece pendente.
+
+---
+
+# Atualização — 19/11/2026, levantamento inicial de cenários
+
+- Conferida em memória a geração com a configuração atual: 1 filme sem avaliações, 5 filmes sem sessões em outubro/2026, 2 clientes sem favoritos, 6 clientes com mais de uma assinatura e 42 pares cliente/filme com reassistidas. São contagens do gerador reproduzido, não uma nova consulta direta ao MySQL.
+- A presença casual de casos não substitui cenários pequenos com resultados conhecidos; ainda faltam casos controlados, testes de fronteira e empates, revisão de escala/desempenho e manual Linux. Preservar a primeira carga ao testar em banco separado.
+
+---
+
+# Atualização — 19/11/2026, verificações da primeira carga
+
+- O aluno executou sql/verificacao_carga.sql no Workbench; as 12 contagens de problemas foram zero, incluindo sobreposição de assinaturas, vigência de sessões, disponibilidade regional, qualidade, duração e cobertura de gêneros/regiões.
+- Primeira carga pequena validada nas verificações implementadas. Isso não conclui a etapa: faltam escala e catálogo ampliados, cenários controlados com respostas conhecidas para as consultas, testes adicionais e manual de execução no Linux. Preservar a carga existente ao preparar novos testes.
+
+---
+
+# Atualização — 19/11/2026, contagens conferidas no MySQL
+
+- O aluno executou contagens no Workbench e confirmou as 11 tabelas com os mesmos valores anunciados pela carga: 5, 3, 8, 12, 20, 20, 38, 26, 150, 48 e 51, respectivamente para região, plano, gênero, filme, cliente, filme-gênero, filme-região, assinatura, sessão, avaliação e favorito.
+- Criado sql/verificacao_carga.sql para conferir regras entre registros e tabelas; sua execução no MySQL ainda está pendente. Próximo passo: executar e analisar as contagens de problemas.
+
+---
+
+# Atualização — 19/11/2026, primeira execução da carga
+
+- O aluno executou scripts/carga_mysql.py contra o MySQL local; o programa informou carga concluída: 5 regiões, 3 planos, 8 gêneros, 12 filmes, 20 clientes, 20 relações filme-gênero, 38 filme-região, 26 assinaturas, 150 sessões, 48 avaliações e 51 favoritos.
+- As contagens exibidas são dos dados enviados pelo programa. A confirmação direta no banco e as verificações SQL de integridade ainda estão pendentes. Próximo passo: conferir as 11 tabelas no Workbench e validar regras de negócio.
+
+---
+
+# Atualização — 19/11/2026, preparação da carga MySQL
+
+- O aluno consultou no Workbench: regiao, plano, cliente e sessao têm zero registros. As demais tabelas ainda não foram observadas diretamente.
+- Criado scripts/carga_mysql.py: confere as 11 tabelas vazias, insere por ordem de dependência, mapeia IDs AUTO_INCREMENT retornados pelo MySQL e usa commit/rollback. Senha é solicitada na execução, sem registro em arquivo.
+- Teste simulado verificou quantidade de inserções, mapeamento de IDs, commit e rollback em erros; ainda não houve execução real contra o MySQL nem verificação de integridade após carga. A execução real é o próximo passo.
+
+---
+
+# Atualização — 19/11/2026, geração modular em memória
+
+- O gerador agora produz registros para as 11 tabelas em memória; módulos separados para configuração, leitura de sementes, catálogo, clientes/assinaturas e sessões. Arquivos de exercício ler_planos.py e ler_regioes.py removidos a pedido do aluno.
+- Adicionadas sementes de gêneros e 12 filmes fictícios. Com a configuração inicial são gerados 20 clientes e 150 sessões; referência e semente estão em scripts/configuracao.py. Os IDs são provisórios e servem apenas para relacionar os dados em memória.
+- Verificados execução, repetibilidade, vigência das sessões, disponibilidade regional, qualidade, duração e unicidade dos pares de avaliações/favoritos. Uma sessão por cliente por dia simplifica o limite de dispositivos. Ainda não há inserção no MySQL nem verificação integrada no SGBD.
+- Próximos passos: conexão e carga transacional usando IDs efetivos, escala e catálogo ampliados, cenários controlados das consultas, validação integrada e manual Linux. A etapa do gerador permanece em andamento.
+
+---
+
+# Atualização — 19/11/2026, início do gerador
+
+- Ambiente Python 3.14 configurado pelo aluno; Faker 40.54.0 e mysql-connector-python 26.10.0 instalados no ambiente virtual. A pasta .venv está ignorada pelo Git.
+- Arquivos semente iniciais seeds/regioes.csv e seeds/planos.csv; scripts/gerador.py lê ambos por uma função comum e gera cinco clientes em memória. Data de referência 19/11/2026, semente 10 e quantidade configuráveis no início do arquivo. Região é um dicionário temporário, não uma chave do banco.
+- Execução local concluída; duas execuções com os mesmos parâmetros geraram saída idêntica. Nenhuma conexão ou inserção no MySQL foi realizada. Os dados e e-mails são provisórios; garantir unicidade contra dados existentes na carga.
+- Próximo passo: completar sementes e gerador para as 11 tabelas, incluindo histórico, sessões coerentes, cenários conhecidos, transação, verificações e manual Linux. Esta etapa ainda não está concluída.
+
+---
+
 # Atualização — 17/11/2026, preparação do gerador
 
 - Dois enunciados relidos. Linguagem livre, bibliotecas permitidas, MySQL e arquivos de texto semente; nenhum número mínimo de registros explícito.

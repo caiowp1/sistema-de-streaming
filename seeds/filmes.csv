@@ -1,0 +1,501 @@
+titulo,classificacao_indicativa,idioma_original,produtora,duracao,sinopse,ano_lancamento,generos
+O Farol da Ilha,12,Português,Estúdio Horizonte,105,Uma família tenta proteger o farol de sua ilha.,2018,Drama|Aventura
+Último Trem,14,Português,Estúdio Horizonte,98,Passageiros enfrentam uma noite de mistério em um trem.,2019,Suspense
+Uma Mesa para Todos,10,Português,Mar Aberto,92,Amigos reúnem a vizinhança em torno de um restaurante.,2017,Comédia|Drama
+Além das Nuvens,10,Inglês,Estrela Filmes,110,Uma piloto parte em busca de uma cidade perdida.,2016,Aventura
+O Jardim das Estrelas,0,Português,Estrela Filmes,86,Uma menina descobre um jardim extraordinário.,2019,Animação|Aventura
+Cartas ao Amanhã,12,Português,Mar Aberto,101,Duas pessoas retomam uma antiga correspondência.,2015,Romance|Drama
+Sinais do Espaço,12,Inglês,Órbita Filmes,120,Uma equipe investiga sinais vindos de outro planeta.,2018,Ficção científica|Suspense
+Rios Vivos,0,Português,Olhar Filmes,74,Comunidades mostram sua relação com os rios.,2020,Documentário
+O Mistério da Praça,10,Português,Mar Aberto,94,Moradores investigam o sumiço de uma antiga estátua.,2016,Comédia|Suspense
+Horizonte Azul,0,Inglês,Olhar Filmes,80,Uma viagem revela a vida em ilhas oceânicas.,2017,Documentário
+Entre Estações,12,Espanhol,Estúdio Horizonte,103,Dois músicos se reencontram durante uma turnê.,2019,Romance|Drama
+A Cidade Submersa,10,Inglês,Órbita Filmes,108,Exploradores procuram respostas em uma cidade sob o mar.,2020,Aventura|Ficção científica
+Vidas da Ilha ao Amanhecer,12,Português,Estúdio Horizonte,75,"Em uma ilha, uma família enfrenta mudanças enquanto reconstrói seus laços.",1995,Drama
+Confusões da Ilha ao Amanhecer,10,Inglês,Mar Aberto,86,"Em uma ilha, amigos tentam organizar uma festa e lidam com imprevistos.",1996,Comédia
+Segredos da Ilha ao Amanhecer,14,Espanhol,Estúdio Horizonte,97,"Em uma ilha, uma investigadora procura pistas após um desaparecimento.",1997,Suspense
+Caminhos da Ilha ao Amanhecer,10,Português,Estrela Filmes,108,"Em uma ilha, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",1998,Aventura
+Retratos da Ilha ao Amanhecer,0,Inglês,Olhar Filmes,119,"Em uma ilha, moradores compartilham histórias sobre seu cotidiano e suas tradições.",1999,Documentário
+Sinais da Ilha ao Amanhecer,12,Espanhol,Órbita Filmes,130,"Em uma ilha, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2000,Ficção científica
+Sonhos da Ilha ao Amanhecer,0,Português,Estrela Filmes,75,"Em uma ilha, uma criança e seus amigos descobrem um mundo de fantasia.",2001,Animação
+Encontros da Ilha ao Amanhecer,12,Inglês,Mar Aberto,86,"Em uma ilha, duas pessoas se reencontram e redescobrem uma antiga amizade.",2002,Romance
+Vidas da Ilha na Chuva,12,Inglês,Estúdio Horizonte,82,"Em uma ilha, uma família enfrenta mudanças enquanto reconstrói seus laços.",1998,Drama
+Confusões da Ilha na Chuva,10,Espanhol,Mar Aberto,93,"Em uma ilha, amigos tentam organizar uma festa e lidam com imprevistos.",1999,Comédia
+Segredos da Ilha na Chuva,14,Português,Estúdio Horizonte,104,"Em uma ilha, uma investigadora procura pistas após um desaparecimento.",2000,Suspense
+Caminhos da Ilha na Chuva,10,Inglês,Estrela Filmes,115,"Em uma ilha, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2001,Aventura
+Retratos da Ilha na Chuva,0,Espanhol,Olhar Filmes,126,"Em uma ilha, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2002,Documentário
+Sinais da Ilha na Chuva,12,Português,Órbita Filmes,137,"Em uma ilha, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2003,Ficção científica
+Sonhos da Ilha na Chuva,0,Inglês,Estrela Filmes,82,"Em uma ilha, uma criança e seus amigos descobrem um mundo de fantasia.",2004,Animação
+Encontros da Ilha na Chuva,12,Espanhol,Mar Aberto,93,"Em uma ilha, duas pessoas se reencontram e redescobrem uma antiga amizade.",2005,Romance
+Vidas da Ilha em Silêncio,12,Espanhol,Estúdio Horizonte,89,"Em uma ilha, uma família enfrenta mudanças enquanto reconstrói seus laços.",2001,Drama
+Confusões da Ilha em Silêncio,10,Português,Mar Aberto,100,"Em uma ilha, amigos tentam organizar uma festa e lidam com imprevistos.",2002,Comédia
+Segredos da Ilha em Silêncio,14,Inglês,Estúdio Horizonte,111,"Em uma ilha, uma investigadora procura pistas após um desaparecimento.",2003,Suspense
+Caminhos da Ilha em Silêncio,10,Espanhol,Estrela Filmes,122,"Em uma ilha, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2004,Aventura
+Retratos da Ilha em Silêncio,0,Português,Olhar Filmes,133,"Em uma ilha, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2005,Documentário
+Sinais da Ilha em Silêncio,12,Inglês,Órbita Filmes,78,"Em uma ilha, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2006,Ficção científica
+Sonhos da Ilha em Silêncio,0,Espanhol,Estrela Filmes,89,"Em uma ilha, uma criança e seus amigos descobrem um mundo de fantasia.",2007,Animação
+Encontros da Ilha em Silêncio,12,Português,Mar Aberto,100,"Em uma ilha, duas pessoas se reencontram e redescobrem uma antiga amizade.",2008,Romance
+Vidas da Ilha no Inverno,12,Português,Estúdio Horizonte,96,"Em uma ilha, uma família enfrenta mudanças enquanto reconstrói seus laços.",2004,Drama
+Confusões da Ilha no Inverno,10,Inglês,Mar Aberto,107,"Em uma ilha, amigos tentam organizar uma festa e lidam com imprevistos.",2005,Comédia
+Segredos da Ilha no Inverno,14,Espanhol,Estúdio Horizonte,118,"Em uma ilha, uma investigadora procura pistas após um desaparecimento.",2006,Suspense
+Caminhos da Ilha no Inverno,10,Português,Estrela Filmes,129,"Em uma ilha, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2007,Aventura
+Retratos da Ilha no Inverno,0,Inglês,Olhar Filmes,140,"Em uma ilha, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2008,Documentário
+Sinais da Ilha no Inverno,12,Espanhol,Órbita Filmes,85,"Em uma ilha, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2009,Ficção científica
+Sonhos da Ilha no Inverno,0,Português,Estrela Filmes,96,"Em uma ilha, uma criança e seus amigos descobrem um mundo de fantasia.",2010,Animação
+Encontros da Ilha no Inverno,12,Inglês,Mar Aberto,107,"Em uma ilha, duas pessoas se reencontram e redescobrem uma antiga amizade.",2011,Romance
+Vidas da Ilha ao Entardecer,12,Inglês,Estúdio Horizonte,103,"Em uma ilha, uma família enfrenta mudanças enquanto reconstrói seus laços.",2007,Drama
+Confusões da Ilha ao Entardecer,10,Espanhol,Mar Aberto,114,"Em uma ilha, amigos tentam organizar uma festa e lidam com imprevistos.",2008,Comédia
+Segredos da Ilha ao Entardecer,14,Português,Estúdio Horizonte,125,"Em uma ilha, uma investigadora procura pistas após um desaparecimento.",2009,Suspense
+Caminhos da Ilha ao Entardecer,10,Inglês,Estrela Filmes,136,"Em uma ilha, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2010,Aventura
+Retratos da Ilha ao Entardecer,0,Espanhol,Olhar Filmes,81,"Em uma ilha, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2011,Documentário
+Sinais da Ilha ao Entardecer,12,Português,Órbita Filmes,92,"Em uma ilha, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2012,Ficção científica
+Sonhos da Ilha ao Entardecer,0,Inglês,Estrela Filmes,103,"Em uma ilha, uma criança e seus amigos descobrem um mundo de fantasia.",2013,Animação
+Encontros da Ilha ao Entardecer,12,Espanhol,Mar Aberto,114,"Em uma ilha, duas pessoas se reencontram e redescobrem uma antiga amizade.",2014,Romance
+Vidas da Ilha em Festa,12,Espanhol,Estúdio Horizonte,110,"Em uma ilha, uma família enfrenta mudanças enquanto reconstrói seus laços.",2010,Drama
+Confusões da Ilha em Festa,10,Português,Mar Aberto,121,"Em uma ilha, amigos tentam organizar uma festa e lidam com imprevistos.",2011,Comédia
+Segredos da Ilha em Festa,14,Inglês,Estúdio Horizonte,132,"Em uma ilha, uma investigadora procura pistas após um desaparecimento.",2012,Suspense
+Caminhos da Ilha em Festa,10,Espanhol,Estrela Filmes,77,"Em uma ilha, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2013,Aventura
+Retratos da Ilha em Festa,0,Português,Olhar Filmes,88,"Em uma ilha, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2014,Documentário
+Sinais da Ilha em Festa,12,Inglês,Órbita Filmes,99,"Em uma ilha, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2015,Ficção científica
+Sonhos da Ilha em Festa,0,Espanhol,Estrela Filmes,110,"Em uma ilha, uma criança e seus amigos descobrem um mundo de fantasia.",2016,Animação
+Encontros da Ilha em Festa,12,Português,Mar Aberto,121,"Em uma ilha, duas pessoas se reencontram e redescobrem uma antiga amizade.",2017,Romance
+Vidas da Ilha no Horizonte,12,Português,Estúdio Horizonte,117,"Em uma ilha, uma família enfrenta mudanças enquanto reconstrói seus laços.",2013,Drama
+Confusões da Ilha no Horizonte,10,Inglês,Mar Aberto,128,"Em uma ilha, amigos tentam organizar uma festa e lidam com imprevistos.",2014,Comédia
+Segredos da Ilha no Horizonte,14,Espanhol,Estúdio Horizonte,139,"Em uma ilha, uma investigadora procura pistas após um desaparecimento.",2015,Suspense
+Caminhos da Ilha no Horizonte,10,Português,Estrela Filmes,84,"Em uma ilha, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2016,Aventura
+Retratos da Ilha no Horizonte,0,Inglês,Olhar Filmes,95,"Em uma ilha, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2017,Documentário
+Sinais da Ilha no Horizonte,12,Espanhol,Órbita Filmes,106,"Em uma ilha, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2018,Ficção científica
+Sonhos da Ilha no Horizonte,0,Português,Estrela Filmes,117,"Em uma ilha, uma criança e seus amigos descobrem um mundo de fantasia.",2019,Animação
+Encontros da Ilha no Horizonte,12,Inglês,Mar Aberto,128,"Em uma ilha, duas pessoas se reencontram e redescobrem uma antiga amizade.",2020,Romance
+Vidas da Ilha na Travessia,12,Inglês,Estúdio Horizonte,124,"Em uma ilha, uma família enfrenta mudanças enquanto reconstrói seus laços.",2016,Drama
+Confusões da Ilha na Travessia,10,Espanhol,Mar Aberto,135,"Em uma ilha, amigos tentam organizar uma festa e lidam com imprevistos.",2017,Comédia
+Segredos da Ilha na Travessia,14,Português,Estúdio Horizonte,80,"Em uma ilha, uma investigadora procura pistas após um desaparecimento.",2018,Suspense
+Caminhos da Ilha na Travessia,10,Inglês,Estrela Filmes,91,"Em uma ilha, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2019,Aventura
+Retratos da Ilha na Travessia,0,Espanhol,Olhar Filmes,102,"Em uma ilha, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2020,Documentário
+Sinais da Ilha na Travessia,12,Português,Órbita Filmes,113,"Em uma ilha, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",1995,Ficção científica
+Sonhos da Ilha na Travessia,0,Inglês,Estrela Filmes,124,"Em uma ilha, uma criança e seus amigos descobrem um mundo de fantasia.",1996,Animação
+Encontros da Ilha na Travessia,12,Espanhol,Mar Aberto,135,"Em uma ilha, duas pessoas se reencontram e redescobrem uma antiga amizade.",1997,Romance
+Vidas do Vale ao Amanhecer,12,Espanhol,Estúdio Horizonte,131,"Em um vale, uma família enfrenta mudanças enquanto reconstrói seus laços.",2019,Drama
+Confusões do Vale ao Amanhecer,10,Português,Mar Aberto,76,"Em um vale, amigos tentam organizar uma festa e lidam com imprevistos.",2020,Comédia
+Segredos do Vale ao Amanhecer,14,Inglês,Estúdio Horizonte,87,"Em um vale, uma investigadora procura pistas após um desaparecimento.",1995,Suspense
+Caminhos do Vale ao Amanhecer,10,Espanhol,Estrela Filmes,98,"Em um vale, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",1996,Aventura
+Retratos do Vale ao Amanhecer,0,Português,Olhar Filmes,109,"Em um vale, moradores compartilham histórias sobre seu cotidiano e suas tradições.",1997,Documentário
+Sinais do Vale ao Amanhecer,12,Inglês,Órbita Filmes,120,"Em um vale, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",1998,Ficção científica
+Sonhos do Vale ao Amanhecer,0,Espanhol,Estrela Filmes,131,"Em um vale, uma criança e seus amigos descobrem um mundo de fantasia.",1999,Animação
+Encontros do Vale ao Amanhecer,12,Português,Mar Aberto,76,"Em um vale, duas pessoas se reencontram e redescobrem uma antiga amizade.",2000,Romance
+Vidas do Vale na Chuva,12,Português,Estúdio Horizonte,138,"Em um vale, uma família enfrenta mudanças enquanto reconstrói seus laços.",1996,Drama
+Confusões do Vale na Chuva,10,Inglês,Mar Aberto,83,"Em um vale, amigos tentam organizar uma festa e lidam com imprevistos.",1997,Comédia
+Segredos do Vale na Chuva,14,Espanhol,Estúdio Horizonte,94,"Em um vale, uma investigadora procura pistas após um desaparecimento.",1998,Suspense
+Caminhos do Vale na Chuva,10,Português,Estrela Filmes,105,"Em um vale, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",1999,Aventura
+Retratos do Vale na Chuva,0,Inglês,Olhar Filmes,116,"Em um vale, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2000,Documentário
+Sinais do Vale na Chuva,12,Espanhol,Órbita Filmes,127,"Em um vale, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2001,Ficção científica
+Sonhos do Vale na Chuva,0,Português,Estrela Filmes,138,"Em um vale, uma criança e seus amigos descobrem um mundo de fantasia.",2002,Animação
+Encontros do Vale na Chuva,12,Inglês,Mar Aberto,83,"Em um vale, duas pessoas se reencontram e redescobrem uma antiga amizade.",2003,Romance
+Vidas do Vale em Silêncio,12,Inglês,Estúdio Horizonte,79,"Em um vale, uma família enfrenta mudanças enquanto reconstrói seus laços.",1999,Drama
+Confusões do Vale em Silêncio,10,Espanhol,Mar Aberto,90,"Em um vale, amigos tentam organizar uma festa e lidam com imprevistos.",2000,Comédia
+Segredos do Vale em Silêncio,14,Português,Estúdio Horizonte,101,"Em um vale, uma investigadora procura pistas após um desaparecimento.",2001,Suspense
+Caminhos do Vale em Silêncio,10,Inglês,Estrela Filmes,112,"Em um vale, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2002,Aventura
+Retratos do Vale em Silêncio,0,Espanhol,Olhar Filmes,123,"Em um vale, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2003,Documentário
+Sinais do Vale em Silêncio,12,Português,Órbita Filmes,134,"Em um vale, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2004,Ficção científica
+Sonhos do Vale em Silêncio,0,Inglês,Estrela Filmes,79,"Em um vale, uma criança e seus amigos descobrem um mundo de fantasia.",2005,Animação
+Encontros do Vale em Silêncio,12,Espanhol,Mar Aberto,90,"Em um vale, duas pessoas se reencontram e redescobrem uma antiga amizade.",2006,Romance
+Vidas do Vale no Inverno,12,Espanhol,Estúdio Horizonte,86,"Em um vale, uma família enfrenta mudanças enquanto reconstrói seus laços.",2002,Drama
+Confusões do Vale no Inverno,10,Português,Mar Aberto,97,"Em um vale, amigos tentam organizar uma festa e lidam com imprevistos.",2003,Comédia
+Segredos do Vale no Inverno,14,Inglês,Estúdio Horizonte,108,"Em um vale, uma investigadora procura pistas após um desaparecimento.",2004,Suspense
+Caminhos do Vale no Inverno,10,Espanhol,Estrela Filmes,119,"Em um vale, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2005,Aventura
+Retratos do Vale no Inverno,0,Português,Olhar Filmes,130,"Em um vale, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2006,Documentário
+Sinais do Vale no Inverno,12,Inglês,Órbita Filmes,75,"Em um vale, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2007,Ficção científica
+Sonhos do Vale no Inverno,0,Espanhol,Estrela Filmes,86,"Em um vale, uma criança e seus amigos descobrem um mundo de fantasia.",2008,Animação
+Encontros do Vale no Inverno,12,Português,Mar Aberto,97,"Em um vale, duas pessoas se reencontram e redescobrem uma antiga amizade.",2009,Romance
+Vidas do Vale ao Entardecer,12,Português,Estúdio Horizonte,93,"Em um vale, uma família enfrenta mudanças enquanto reconstrói seus laços.",2005,Drama
+Confusões do Vale ao Entardecer,10,Inglês,Mar Aberto,104,"Em um vale, amigos tentam organizar uma festa e lidam com imprevistos.",2006,Comédia
+Segredos do Vale ao Entardecer,14,Espanhol,Estúdio Horizonte,115,"Em um vale, uma investigadora procura pistas após um desaparecimento.",2007,Suspense
+Caminhos do Vale ao Entardecer,10,Português,Estrela Filmes,126,"Em um vale, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2008,Aventura
+Retratos do Vale ao Entardecer,0,Inglês,Olhar Filmes,137,"Em um vale, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2009,Documentário
+Sinais do Vale ao Entardecer,12,Espanhol,Órbita Filmes,82,"Em um vale, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2010,Ficção científica
+Sonhos do Vale ao Entardecer,0,Português,Estrela Filmes,93,"Em um vale, uma criança e seus amigos descobrem um mundo de fantasia.",2011,Animação
+Encontros do Vale ao Entardecer,12,Inglês,Mar Aberto,104,"Em um vale, duas pessoas se reencontram e redescobrem uma antiga amizade.",2012,Romance
+Vidas do Vale em Festa,12,Inglês,Estúdio Horizonte,100,"Em um vale, uma família enfrenta mudanças enquanto reconstrói seus laços.",2008,Drama
+Confusões do Vale em Festa,10,Espanhol,Mar Aberto,111,"Em um vale, amigos tentam organizar uma festa e lidam com imprevistos.",2009,Comédia
+Segredos do Vale em Festa,14,Português,Estúdio Horizonte,122,"Em um vale, uma investigadora procura pistas após um desaparecimento.",2010,Suspense
+Caminhos do Vale em Festa,10,Inglês,Estrela Filmes,133,"Em um vale, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2011,Aventura
+Retratos do Vale em Festa,0,Espanhol,Olhar Filmes,78,"Em um vale, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2012,Documentário
+Sinais do Vale em Festa,12,Português,Órbita Filmes,89,"Em um vale, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2013,Ficção científica
+Sonhos do Vale em Festa,0,Inglês,Estrela Filmes,100,"Em um vale, uma criança e seus amigos descobrem um mundo de fantasia.",2014,Animação
+Encontros do Vale em Festa,12,Espanhol,Mar Aberto,111,"Em um vale, duas pessoas se reencontram e redescobrem uma antiga amizade.",2015,Romance
+Vidas do Vale no Horizonte,12,Espanhol,Estúdio Horizonte,107,"Em um vale, uma família enfrenta mudanças enquanto reconstrói seus laços.",2011,Drama
+Confusões do Vale no Horizonte,10,Português,Mar Aberto,118,"Em um vale, amigos tentam organizar uma festa e lidam com imprevistos.",2012,Comédia
+Segredos do Vale no Horizonte,14,Inglês,Estúdio Horizonte,129,"Em um vale, uma investigadora procura pistas após um desaparecimento.",2013,Suspense
+Caminhos do Vale no Horizonte,10,Espanhol,Estrela Filmes,140,"Em um vale, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2014,Aventura
+Retratos do Vale no Horizonte,0,Português,Olhar Filmes,85,"Em um vale, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2015,Documentário
+Sinais do Vale no Horizonte,12,Inglês,Órbita Filmes,96,"Em um vale, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2016,Ficção científica
+Sonhos do Vale no Horizonte,0,Espanhol,Estrela Filmes,107,"Em um vale, uma criança e seus amigos descobrem um mundo de fantasia.",2017,Animação
+Encontros do Vale no Horizonte,12,Português,Mar Aberto,118,"Em um vale, duas pessoas se reencontram e redescobrem uma antiga amizade.",2018,Romance
+Vidas do Vale na Travessia,12,Português,Estúdio Horizonte,114,"Em um vale, uma família enfrenta mudanças enquanto reconstrói seus laços.",2014,Drama
+Confusões do Vale na Travessia,10,Inglês,Mar Aberto,125,"Em um vale, amigos tentam organizar uma festa e lidam com imprevistos.",2015,Comédia
+Segredos do Vale na Travessia,14,Espanhol,Estúdio Horizonte,136,"Em um vale, uma investigadora procura pistas após um desaparecimento.",2016,Suspense
+Caminhos do Vale na Travessia,10,Português,Estrela Filmes,81,"Em um vale, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2017,Aventura
+Retratos do Vale na Travessia,0,Inglês,Olhar Filmes,92,"Em um vale, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2018,Documentário
+Sinais do Vale na Travessia,12,Espanhol,Órbita Filmes,103,"Em um vale, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2019,Ficção científica
+Sonhos do Vale na Travessia,0,Português,Estrela Filmes,114,"Em um vale, uma criança e seus amigos descobrem um mundo de fantasia.",2020,Animação
+Encontros do Vale na Travessia,12,Inglês,Mar Aberto,125,"Em um vale, duas pessoas se reencontram e redescobrem uma antiga amizade.",1995,Romance
+Vidas do Porto ao Amanhecer,12,Inglês,Estúdio Horizonte,121,"Em uma cidade portuária, uma família enfrenta mudanças enquanto reconstrói seus laços.",2017,Drama
+Confusões do Porto ao Amanhecer,10,Espanhol,Mar Aberto,132,"Em uma cidade portuária, amigos tentam organizar uma festa e lidam com imprevistos.",2018,Comédia
+Segredos do Porto ao Amanhecer,14,Português,Estúdio Horizonte,77,"Em uma cidade portuária, uma investigadora procura pistas após um desaparecimento.",2019,Suspense
+Caminhos do Porto ao Amanhecer,10,Inglês,Estrela Filmes,88,"Em uma cidade portuária, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2020,Aventura
+Retratos do Porto ao Amanhecer,0,Espanhol,Olhar Filmes,99,"Em uma cidade portuária, moradores compartilham histórias sobre seu cotidiano e suas tradições.",1995,Documentário
+Sinais do Porto ao Amanhecer,12,Português,Órbita Filmes,110,"Em uma cidade portuária, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",1996,Ficção científica
+Sonhos do Porto ao Amanhecer,0,Inglês,Estrela Filmes,121,"Em uma cidade portuária, uma criança e seus amigos descobrem um mundo de fantasia.",1997,Animação
+Encontros do Porto ao Amanhecer,12,Espanhol,Mar Aberto,132,"Em uma cidade portuária, duas pessoas se reencontram e redescobrem uma antiga amizade.",1998,Romance
+Vidas do Porto na Chuva,12,Espanhol,Estúdio Horizonte,128,"Em uma cidade portuária, uma família enfrenta mudanças enquanto reconstrói seus laços.",2020,Drama
+Confusões do Porto na Chuva,10,Português,Mar Aberto,139,"Em uma cidade portuária, amigos tentam organizar uma festa e lidam com imprevistos.",1995,Comédia
+Segredos do Porto na Chuva,14,Inglês,Estúdio Horizonte,84,"Em uma cidade portuária, uma investigadora procura pistas após um desaparecimento.",1996,Suspense
+Caminhos do Porto na Chuva,10,Espanhol,Estrela Filmes,95,"Em uma cidade portuária, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",1997,Aventura
+Retratos do Porto na Chuva,0,Português,Olhar Filmes,106,"Em uma cidade portuária, moradores compartilham histórias sobre seu cotidiano e suas tradições.",1998,Documentário
+Sinais do Porto na Chuva,12,Inglês,Órbita Filmes,117,"Em uma cidade portuária, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",1999,Ficção científica
+Sonhos do Porto na Chuva,0,Espanhol,Estrela Filmes,128,"Em uma cidade portuária, uma criança e seus amigos descobrem um mundo de fantasia.",2000,Animação
+Encontros do Porto na Chuva,12,Português,Mar Aberto,139,"Em uma cidade portuária, duas pessoas se reencontram e redescobrem uma antiga amizade.",2001,Romance
+Vidas do Porto em Silêncio,12,Português,Estúdio Horizonte,135,"Em uma cidade portuária, uma família enfrenta mudanças enquanto reconstrói seus laços.",1997,Drama
+Confusões do Porto em Silêncio,10,Inglês,Mar Aberto,80,"Em uma cidade portuária, amigos tentam organizar uma festa e lidam com imprevistos.",1998,Comédia
+Segredos do Porto em Silêncio,14,Espanhol,Estúdio Horizonte,91,"Em uma cidade portuária, uma investigadora procura pistas após um desaparecimento.",1999,Suspense
+Caminhos do Porto em Silêncio,10,Português,Estrela Filmes,102,"Em uma cidade portuária, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2000,Aventura
+Retratos do Porto em Silêncio,0,Inglês,Olhar Filmes,113,"Em uma cidade portuária, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2001,Documentário
+Sinais do Porto em Silêncio,12,Espanhol,Órbita Filmes,124,"Em uma cidade portuária, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2002,Ficção científica
+Sonhos do Porto em Silêncio,0,Português,Estrela Filmes,135,"Em uma cidade portuária, uma criança e seus amigos descobrem um mundo de fantasia.",2003,Animação
+Encontros do Porto em Silêncio,12,Inglês,Mar Aberto,80,"Em uma cidade portuária, duas pessoas se reencontram e redescobrem uma antiga amizade.",2004,Romance
+Vidas do Porto no Inverno,12,Inglês,Estúdio Horizonte,76,"Em uma cidade portuária, uma família enfrenta mudanças enquanto reconstrói seus laços.",2000,Drama
+Confusões do Porto no Inverno,10,Espanhol,Mar Aberto,87,"Em uma cidade portuária, amigos tentam organizar uma festa e lidam com imprevistos.",2001,Comédia
+Segredos do Porto no Inverno,14,Português,Estúdio Horizonte,98,"Em uma cidade portuária, uma investigadora procura pistas após um desaparecimento.",2002,Suspense
+Caminhos do Porto no Inverno,10,Inglês,Estrela Filmes,109,"Em uma cidade portuária, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2003,Aventura
+Retratos do Porto no Inverno,0,Espanhol,Olhar Filmes,120,"Em uma cidade portuária, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2004,Documentário
+Sinais do Porto no Inverno,12,Português,Órbita Filmes,131,"Em uma cidade portuária, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2005,Ficção científica
+Sonhos do Porto no Inverno,0,Inglês,Estrela Filmes,76,"Em uma cidade portuária, uma criança e seus amigos descobrem um mundo de fantasia.",2006,Animação
+Encontros do Porto no Inverno,12,Espanhol,Mar Aberto,87,"Em uma cidade portuária, duas pessoas se reencontram e redescobrem uma antiga amizade.",2007,Romance
+Vidas do Porto ao Entardecer,12,Espanhol,Estúdio Horizonte,83,"Em uma cidade portuária, uma família enfrenta mudanças enquanto reconstrói seus laços.",2003,Drama
+Confusões do Porto ao Entardecer,10,Português,Mar Aberto,94,"Em uma cidade portuária, amigos tentam organizar uma festa e lidam com imprevistos.",2004,Comédia
+Segredos do Porto ao Entardecer,14,Inglês,Estúdio Horizonte,105,"Em uma cidade portuária, uma investigadora procura pistas após um desaparecimento.",2005,Suspense
+Caminhos do Porto ao Entardecer,10,Espanhol,Estrela Filmes,116,"Em uma cidade portuária, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2006,Aventura
+Retratos do Porto ao Entardecer,0,Português,Olhar Filmes,127,"Em uma cidade portuária, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2007,Documentário
+Sinais do Porto ao Entardecer,12,Inglês,Órbita Filmes,138,"Em uma cidade portuária, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2008,Ficção científica
+Sonhos do Porto ao Entardecer,0,Espanhol,Estrela Filmes,83,"Em uma cidade portuária, uma criança e seus amigos descobrem um mundo de fantasia.",2009,Animação
+Encontros do Porto ao Entardecer,12,Português,Mar Aberto,94,"Em uma cidade portuária, duas pessoas se reencontram e redescobrem uma antiga amizade.",2010,Romance
+Vidas do Porto em Festa,12,Português,Estúdio Horizonte,90,"Em uma cidade portuária, uma família enfrenta mudanças enquanto reconstrói seus laços.",2006,Drama
+Confusões do Porto em Festa,10,Inglês,Mar Aberto,101,"Em uma cidade portuária, amigos tentam organizar uma festa e lidam com imprevistos.",2007,Comédia
+Segredos do Porto em Festa,14,Espanhol,Estúdio Horizonte,112,"Em uma cidade portuária, uma investigadora procura pistas após um desaparecimento.",2008,Suspense
+Caminhos do Porto em Festa,10,Português,Estrela Filmes,123,"Em uma cidade portuária, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2009,Aventura
+Retratos do Porto em Festa,0,Inglês,Olhar Filmes,134,"Em uma cidade portuária, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2010,Documentário
+Sinais do Porto em Festa,12,Espanhol,Órbita Filmes,79,"Em uma cidade portuária, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2011,Ficção científica
+Sonhos do Porto em Festa,0,Português,Estrela Filmes,90,"Em uma cidade portuária, uma criança e seus amigos descobrem um mundo de fantasia.",2012,Animação
+Encontros do Porto em Festa,12,Inglês,Mar Aberto,101,"Em uma cidade portuária, duas pessoas se reencontram e redescobrem uma antiga amizade.",2013,Romance
+Vidas do Porto no Horizonte,12,Inglês,Estúdio Horizonte,97,"Em uma cidade portuária, uma família enfrenta mudanças enquanto reconstrói seus laços.",2009,Drama
+Confusões do Porto no Horizonte,10,Espanhol,Mar Aberto,108,"Em uma cidade portuária, amigos tentam organizar uma festa e lidam com imprevistos.",2010,Comédia
+Segredos do Porto no Horizonte,14,Português,Estúdio Horizonte,119,"Em uma cidade portuária, uma investigadora procura pistas após um desaparecimento.",2011,Suspense
+Caminhos do Porto no Horizonte,10,Inglês,Estrela Filmes,130,"Em uma cidade portuária, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2012,Aventura
+Retratos do Porto no Horizonte,0,Espanhol,Olhar Filmes,75,"Em uma cidade portuária, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2013,Documentário
+Sinais do Porto no Horizonte,12,Português,Órbita Filmes,86,"Em uma cidade portuária, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2014,Ficção científica
+Sonhos do Porto no Horizonte,0,Inglês,Estrela Filmes,97,"Em uma cidade portuária, uma criança e seus amigos descobrem um mundo de fantasia.",2015,Animação
+Encontros do Porto no Horizonte,12,Espanhol,Mar Aberto,108,"Em uma cidade portuária, duas pessoas se reencontram e redescobrem uma antiga amizade.",2016,Romance
+Vidas do Porto na Travessia,12,Espanhol,Estúdio Horizonte,104,"Em uma cidade portuária, uma família enfrenta mudanças enquanto reconstrói seus laços.",2012,Drama
+Confusões do Porto na Travessia,10,Português,Mar Aberto,115,"Em uma cidade portuária, amigos tentam organizar uma festa e lidam com imprevistos.",2013,Comédia
+Segredos do Porto na Travessia,14,Inglês,Estúdio Horizonte,126,"Em uma cidade portuária, uma investigadora procura pistas após um desaparecimento.",2014,Suspense
+Caminhos do Porto na Travessia,10,Espanhol,Estrela Filmes,137,"Em uma cidade portuária, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2015,Aventura
+Retratos do Porto na Travessia,0,Português,Olhar Filmes,82,"Em uma cidade portuária, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2016,Documentário
+Sinais do Porto na Travessia,12,Inglês,Órbita Filmes,93,"Em uma cidade portuária, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2017,Ficção científica
+Sonhos do Porto na Travessia,0,Espanhol,Estrela Filmes,104,"Em uma cidade portuária, uma criança e seus amigos descobrem um mundo de fantasia.",2018,Animação
+Encontros do Porto na Travessia,12,Português,Mar Aberto,115,"Em uma cidade portuária, duas pessoas se reencontram e redescobrem uma antiga amizade.",2019,Romance
+Vidas da Serra ao Amanhecer,12,Português,Estúdio Horizonte,111,"Em uma vila na serra, uma família enfrenta mudanças enquanto reconstrói seus laços.",2015,Drama
+Confusões da Serra ao Amanhecer,10,Inglês,Mar Aberto,122,"Em uma vila na serra, amigos tentam organizar uma festa e lidam com imprevistos.",2016,Comédia
+Segredos da Serra ao Amanhecer,14,Espanhol,Estúdio Horizonte,133,"Em uma vila na serra, uma investigadora procura pistas após um desaparecimento.",2017,Suspense
+Caminhos da Serra ao Amanhecer,10,Português,Estrela Filmes,78,"Em uma vila na serra, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2018,Aventura
+Retratos da Serra ao Amanhecer,0,Inglês,Olhar Filmes,89,"Em uma vila na serra, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2019,Documentário
+Sinais da Serra ao Amanhecer,12,Espanhol,Órbita Filmes,100,"Em uma vila na serra, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2020,Ficção científica
+Sonhos da Serra ao Amanhecer,0,Português,Estrela Filmes,111,"Em uma vila na serra, uma criança e seus amigos descobrem um mundo de fantasia.",1995,Animação
+Encontros da Serra ao Amanhecer,12,Inglês,Mar Aberto,122,"Em uma vila na serra, duas pessoas se reencontram e redescobrem uma antiga amizade.",1996,Romance
+Vidas da Serra na Chuva,12,Inglês,Estúdio Horizonte,118,"Em uma vila na serra, uma família enfrenta mudanças enquanto reconstrói seus laços.",2018,Drama
+Confusões da Serra na Chuva,10,Espanhol,Mar Aberto,129,"Em uma vila na serra, amigos tentam organizar uma festa e lidam com imprevistos.",2019,Comédia
+Segredos da Serra na Chuva,14,Português,Estúdio Horizonte,140,"Em uma vila na serra, uma investigadora procura pistas após um desaparecimento.",2020,Suspense
+Caminhos da Serra na Chuva,10,Inglês,Estrela Filmes,85,"Em uma vila na serra, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",1995,Aventura
+Retratos da Serra na Chuva,0,Espanhol,Olhar Filmes,96,"Em uma vila na serra, moradores compartilham histórias sobre seu cotidiano e suas tradições.",1996,Documentário
+Sinais da Serra na Chuva,12,Português,Órbita Filmes,107,"Em uma vila na serra, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",1997,Ficção científica
+Sonhos da Serra na Chuva,0,Inglês,Estrela Filmes,118,"Em uma vila na serra, uma criança e seus amigos descobrem um mundo de fantasia.",1998,Animação
+Encontros da Serra na Chuva,12,Espanhol,Mar Aberto,129,"Em uma vila na serra, duas pessoas se reencontram e redescobrem uma antiga amizade.",1999,Romance
+Vidas da Serra em Silêncio,12,Espanhol,Estúdio Horizonte,125,"Em uma vila na serra, uma família enfrenta mudanças enquanto reconstrói seus laços.",1995,Drama
+Confusões da Serra em Silêncio,10,Português,Mar Aberto,136,"Em uma vila na serra, amigos tentam organizar uma festa e lidam com imprevistos.",1996,Comédia
+Segredos da Serra em Silêncio,14,Inglês,Estúdio Horizonte,81,"Em uma vila na serra, uma investigadora procura pistas após um desaparecimento.",1997,Suspense
+Caminhos da Serra em Silêncio,10,Espanhol,Estrela Filmes,92,"Em uma vila na serra, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",1998,Aventura
+Retratos da Serra em Silêncio,0,Português,Olhar Filmes,103,"Em uma vila na serra, moradores compartilham histórias sobre seu cotidiano e suas tradições.",1999,Documentário
+Sinais da Serra em Silêncio,12,Inglês,Órbita Filmes,114,"Em uma vila na serra, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2000,Ficção científica
+Sonhos da Serra em Silêncio,0,Espanhol,Estrela Filmes,125,"Em uma vila na serra, uma criança e seus amigos descobrem um mundo de fantasia.",2001,Animação
+Encontros da Serra em Silêncio,12,Português,Mar Aberto,136,"Em uma vila na serra, duas pessoas se reencontram e redescobrem uma antiga amizade.",2002,Romance
+Vidas da Serra no Inverno,12,Português,Estúdio Horizonte,132,"Em uma vila na serra, uma família enfrenta mudanças enquanto reconstrói seus laços.",1998,Drama
+Confusões da Serra no Inverno,10,Inglês,Mar Aberto,77,"Em uma vila na serra, amigos tentam organizar uma festa e lidam com imprevistos.",1999,Comédia
+Segredos da Serra no Inverno,14,Espanhol,Estúdio Horizonte,88,"Em uma vila na serra, uma investigadora procura pistas após um desaparecimento.",2000,Suspense
+Caminhos da Serra no Inverno,10,Português,Estrela Filmes,99,"Em uma vila na serra, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2001,Aventura
+Retratos da Serra no Inverno,0,Inglês,Olhar Filmes,110,"Em uma vila na serra, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2002,Documentário
+Sinais da Serra no Inverno,12,Espanhol,Órbita Filmes,121,"Em uma vila na serra, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2003,Ficção científica
+Sonhos da Serra no Inverno,0,Português,Estrela Filmes,132,"Em uma vila na serra, uma criança e seus amigos descobrem um mundo de fantasia.",2004,Animação
+Encontros da Serra no Inverno,12,Inglês,Mar Aberto,77,"Em uma vila na serra, duas pessoas se reencontram e redescobrem uma antiga amizade.",2005,Romance
+Vidas da Serra ao Entardecer,12,Inglês,Estúdio Horizonte,139,"Em uma vila na serra, uma família enfrenta mudanças enquanto reconstrói seus laços.",2001,Drama
+Confusões da Serra ao Entardecer,10,Espanhol,Mar Aberto,84,"Em uma vila na serra, amigos tentam organizar uma festa e lidam com imprevistos.",2002,Comédia
+Segredos da Serra ao Entardecer,14,Português,Estúdio Horizonte,95,"Em uma vila na serra, uma investigadora procura pistas após um desaparecimento.",2003,Suspense
+Caminhos da Serra ao Entardecer,10,Inglês,Estrela Filmes,106,"Em uma vila na serra, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2004,Aventura
+Retratos da Serra ao Entardecer,0,Espanhol,Olhar Filmes,117,"Em uma vila na serra, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2005,Documentário
+Sinais da Serra ao Entardecer,12,Português,Órbita Filmes,128,"Em uma vila na serra, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2006,Ficção científica
+Sonhos da Serra ao Entardecer,0,Inglês,Estrela Filmes,139,"Em uma vila na serra, uma criança e seus amigos descobrem um mundo de fantasia.",2007,Animação
+Encontros da Serra ao Entardecer,12,Espanhol,Mar Aberto,84,"Em uma vila na serra, duas pessoas se reencontram e redescobrem uma antiga amizade.",2008,Romance
+Vidas da Serra em Festa,12,Espanhol,Estúdio Horizonte,80,"Em uma vila na serra, uma família enfrenta mudanças enquanto reconstrói seus laços.",2004,Drama
+Confusões da Serra em Festa,10,Português,Mar Aberto,91,"Em uma vila na serra, amigos tentam organizar uma festa e lidam com imprevistos.",2005,Comédia
+Segredos da Serra em Festa,14,Inglês,Estúdio Horizonte,102,"Em uma vila na serra, uma investigadora procura pistas após um desaparecimento.",2006,Suspense
+Caminhos da Serra em Festa,10,Espanhol,Estrela Filmes,113,"Em uma vila na serra, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2007,Aventura
+Retratos da Serra em Festa,0,Português,Olhar Filmes,124,"Em uma vila na serra, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2008,Documentário
+Sinais da Serra em Festa,12,Inglês,Órbita Filmes,135,"Em uma vila na serra, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2009,Ficção científica
+Sonhos da Serra em Festa,0,Espanhol,Estrela Filmes,80,"Em uma vila na serra, uma criança e seus amigos descobrem um mundo de fantasia.",2010,Animação
+Encontros da Serra em Festa,12,Português,Mar Aberto,91,"Em uma vila na serra, duas pessoas se reencontram e redescobrem uma antiga amizade.",2011,Romance
+Vidas da Serra no Horizonte,12,Português,Estúdio Horizonte,87,"Em uma vila na serra, uma família enfrenta mudanças enquanto reconstrói seus laços.",2007,Drama
+Confusões da Serra no Horizonte,10,Inglês,Mar Aberto,98,"Em uma vila na serra, amigos tentam organizar uma festa e lidam com imprevistos.",2008,Comédia
+Segredos da Serra no Horizonte,14,Espanhol,Estúdio Horizonte,109,"Em uma vila na serra, uma investigadora procura pistas após um desaparecimento.",2009,Suspense
+Caminhos da Serra no Horizonte,10,Português,Estrela Filmes,120,"Em uma vila na serra, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2010,Aventura
+Retratos da Serra no Horizonte,0,Inglês,Olhar Filmes,131,"Em uma vila na serra, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2011,Documentário
+Sinais da Serra no Horizonte,12,Espanhol,Órbita Filmes,76,"Em uma vila na serra, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2012,Ficção científica
+Sonhos da Serra no Horizonte,0,Português,Estrela Filmes,87,"Em uma vila na serra, uma criança e seus amigos descobrem um mundo de fantasia.",2013,Animação
+Encontros da Serra no Horizonte,12,Inglês,Mar Aberto,98,"Em uma vila na serra, duas pessoas se reencontram e redescobrem uma antiga amizade.",2014,Romance
+Vidas da Serra na Travessia,12,Inglês,Estúdio Horizonte,94,"Em uma vila na serra, uma família enfrenta mudanças enquanto reconstrói seus laços.",2010,Drama
+Confusões da Serra na Travessia,10,Espanhol,Mar Aberto,105,"Em uma vila na serra, amigos tentam organizar uma festa e lidam com imprevistos.",2011,Comédia
+Segredos da Serra na Travessia,14,Português,Estúdio Horizonte,116,"Em uma vila na serra, uma investigadora procura pistas após um desaparecimento.",2012,Suspense
+Caminhos da Serra na Travessia,10,Inglês,Estrela Filmes,127,"Em uma vila na serra, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2013,Aventura
+Retratos da Serra na Travessia,0,Espanhol,Olhar Filmes,138,"Em uma vila na serra, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2014,Documentário
+Sinais da Serra na Travessia,12,Português,Órbita Filmes,83,"Em uma vila na serra, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2015,Ficção científica
+Sonhos da Serra na Travessia,0,Inglês,Estrela Filmes,94,"Em uma vila na serra, uma criança e seus amigos descobrem um mundo de fantasia.",2016,Animação
+Encontros da Serra na Travessia,12,Espanhol,Mar Aberto,105,"Em uma vila na serra, duas pessoas se reencontram e redescobrem uma antiga amizade.",2017,Romance
+Vidas da Estação ao Amanhecer,12,Espanhol,Estúdio Horizonte,101,"Em uma antiga estação, uma família enfrenta mudanças enquanto reconstrói seus laços.",2013,Drama
+Confusões da Estação ao Amanhecer,10,Português,Mar Aberto,112,"Em uma antiga estação, amigos tentam organizar uma festa e lidam com imprevistos.",2014,Comédia
+Segredos da Estação ao Amanhecer,14,Inglês,Estúdio Horizonte,123,"Em uma antiga estação, uma investigadora procura pistas após um desaparecimento.",2015,Suspense
+Caminhos da Estação ao Amanhecer,10,Espanhol,Estrela Filmes,134,"Em uma antiga estação, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2016,Aventura
+Retratos da Estação ao Amanhecer,0,Português,Olhar Filmes,79,"Em uma antiga estação, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2017,Documentário
+Sinais da Estação ao Amanhecer,12,Inglês,Órbita Filmes,90,"Em uma antiga estação, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2018,Ficção científica
+Sonhos da Estação ao Amanhecer,0,Espanhol,Estrela Filmes,101,"Em uma antiga estação, uma criança e seus amigos descobrem um mundo de fantasia.",2019,Animação
+Encontros da Estação ao Amanhecer,12,Português,Mar Aberto,112,"Em uma antiga estação, duas pessoas se reencontram e redescobrem uma antiga amizade.",2020,Romance
+Vidas da Estação na Chuva,12,Português,Estúdio Horizonte,108,"Em uma antiga estação, uma família enfrenta mudanças enquanto reconstrói seus laços.",2016,Drama
+Confusões da Estação na Chuva,10,Inglês,Mar Aberto,119,"Em uma antiga estação, amigos tentam organizar uma festa e lidam com imprevistos.",2017,Comédia
+Segredos da Estação na Chuva,14,Espanhol,Estúdio Horizonte,130,"Em uma antiga estação, uma investigadora procura pistas após um desaparecimento.",2018,Suspense
+Caminhos da Estação na Chuva,10,Português,Estrela Filmes,75,"Em uma antiga estação, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2019,Aventura
+Retratos da Estação na Chuva,0,Inglês,Olhar Filmes,86,"Em uma antiga estação, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2020,Documentário
+Sinais da Estação na Chuva,12,Espanhol,Órbita Filmes,97,"Em uma antiga estação, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",1995,Ficção científica
+Sonhos da Estação na Chuva,0,Português,Estrela Filmes,108,"Em uma antiga estação, uma criança e seus amigos descobrem um mundo de fantasia.",1996,Animação
+Encontros da Estação na Chuva,12,Inglês,Mar Aberto,119,"Em uma antiga estação, duas pessoas se reencontram e redescobrem uma antiga amizade.",1997,Romance
+Vidas da Estação em Silêncio,12,Inglês,Estúdio Horizonte,115,"Em uma antiga estação, uma família enfrenta mudanças enquanto reconstrói seus laços.",2019,Drama
+Confusões da Estação em Silêncio,10,Espanhol,Mar Aberto,126,"Em uma antiga estação, amigos tentam organizar uma festa e lidam com imprevistos.",2020,Comédia
+Segredos da Estação em Silêncio,14,Português,Estúdio Horizonte,137,"Em uma antiga estação, uma investigadora procura pistas após um desaparecimento.",1995,Suspense
+Caminhos da Estação em Silêncio,10,Inglês,Estrela Filmes,82,"Em uma antiga estação, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",1996,Aventura
+Retratos da Estação em Silêncio,0,Espanhol,Olhar Filmes,93,"Em uma antiga estação, moradores compartilham histórias sobre seu cotidiano e suas tradições.",1997,Documentário
+Sinais da Estação em Silêncio,12,Português,Órbita Filmes,104,"Em uma antiga estação, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",1998,Ficção científica
+Sonhos da Estação em Silêncio,0,Inglês,Estrela Filmes,115,"Em uma antiga estação, uma criança e seus amigos descobrem um mundo de fantasia.",1999,Animação
+Encontros da Estação em Silêncio,12,Espanhol,Mar Aberto,126,"Em uma antiga estação, duas pessoas se reencontram e redescobrem uma antiga amizade.",2000,Romance
+Vidas da Estação no Inverno,12,Espanhol,Estúdio Horizonte,122,"Em uma antiga estação, uma família enfrenta mudanças enquanto reconstrói seus laços.",1996,Drama
+Confusões da Estação no Inverno,10,Português,Mar Aberto,133,"Em uma antiga estação, amigos tentam organizar uma festa e lidam com imprevistos.",1997,Comédia
+Segredos da Estação no Inverno,14,Inglês,Estúdio Horizonte,78,"Em uma antiga estação, uma investigadora procura pistas após um desaparecimento.",1998,Suspense
+Caminhos da Estação no Inverno,10,Espanhol,Estrela Filmes,89,"Em uma antiga estação, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",1999,Aventura
+Retratos da Estação no Inverno,0,Português,Olhar Filmes,100,"Em uma antiga estação, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2000,Documentário
+Sinais da Estação no Inverno,12,Inglês,Órbita Filmes,111,"Em uma antiga estação, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2001,Ficção científica
+Sonhos da Estação no Inverno,0,Espanhol,Estrela Filmes,122,"Em uma antiga estação, uma criança e seus amigos descobrem um mundo de fantasia.",2002,Animação
+Encontros da Estação no Inverno,12,Português,Mar Aberto,133,"Em uma antiga estação, duas pessoas se reencontram e redescobrem uma antiga amizade.",2003,Romance
+Vidas da Estação ao Entardecer,12,Português,Estúdio Horizonte,129,"Em uma antiga estação, uma família enfrenta mudanças enquanto reconstrói seus laços.",1999,Drama
+Confusões da Estação ao Entardecer,10,Inglês,Mar Aberto,140,"Em uma antiga estação, amigos tentam organizar uma festa e lidam com imprevistos.",2000,Comédia
+Segredos da Estação ao Entardecer,14,Espanhol,Estúdio Horizonte,85,"Em uma antiga estação, uma investigadora procura pistas após um desaparecimento.",2001,Suspense
+Caminhos da Estação ao Entardecer,10,Português,Estrela Filmes,96,"Em uma antiga estação, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2002,Aventura
+Retratos da Estação ao Entardecer,0,Inglês,Olhar Filmes,107,"Em uma antiga estação, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2003,Documentário
+Sinais da Estação ao Entardecer,12,Espanhol,Órbita Filmes,118,"Em uma antiga estação, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2004,Ficção científica
+Sonhos da Estação ao Entardecer,0,Português,Estrela Filmes,129,"Em uma antiga estação, uma criança e seus amigos descobrem um mundo de fantasia.",2005,Animação
+Encontros da Estação ao Entardecer,12,Inglês,Mar Aberto,140,"Em uma antiga estação, duas pessoas se reencontram e redescobrem uma antiga amizade.",2006,Romance
+Vidas da Estação em Festa,12,Inglês,Estúdio Horizonte,136,"Em uma antiga estação, uma família enfrenta mudanças enquanto reconstrói seus laços.",2002,Drama
+Confusões da Estação em Festa,10,Espanhol,Mar Aberto,81,"Em uma antiga estação, amigos tentam organizar uma festa e lidam com imprevistos.",2003,Comédia
+Segredos da Estação em Festa,14,Português,Estúdio Horizonte,92,"Em uma antiga estação, uma investigadora procura pistas após um desaparecimento.",2004,Suspense
+Caminhos da Estação em Festa,10,Inglês,Estrela Filmes,103,"Em uma antiga estação, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2005,Aventura
+Retratos da Estação em Festa,0,Espanhol,Olhar Filmes,114,"Em uma antiga estação, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2006,Documentário
+Sinais da Estação em Festa,12,Português,Órbita Filmes,125,"Em uma antiga estação, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2007,Ficção científica
+Sonhos da Estação em Festa,0,Inglês,Estrela Filmes,136,"Em uma antiga estação, uma criança e seus amigos descobrem um mundo de fantasia.",2008,Animação
+Encontros da Estação em Festa,12,Espanhol,Mar Aberto,81,"Em uma antiga estação, duas pessoas se reencontram e redescobrem uma antiga amizade.",2009,Romance
+Vidas da Estação no Horizonte,12,Espanhol,Estúdio Horizonte,77,"Em uma antiga estação, uma família enfrenta mudanças enquanto reconstrói seus laços.",2005,Drama
+Confusões da Estação no Horizonte,10,Português,Mar Aberto,88,"Em uma antiga estação, amigos tentam organizar uma festa e lidam com imprevistos.",2006,Comédia
+Segredos da Estação no Horizonte,14,Inglês,Estúdio Horizonte,99,"Em uma antiga estação, uma investigadora procura pistas após um desaparecimento.",2007,Suspense
+Caminhos da Estação no Horizonte,10,Espanhol,Estrela Filmes,110,"Em uma antiga estação, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2008,Aventura
+Retratos da Estação no Horizonte,0,Português,Olhar Filmes,121,"Em uma antiga estação, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2009,Documentário
+Sinais da Estação no Horizonte,12,Inglês,Órbita Filmes,132,"Em uma antiga estação, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2010,Ficção científica
+Sonhos da Estação no Horizonte,0,Espanhol,Estrela Filmes,77,"Em uma antiga estação, uma criança e seus amigos descobrem um mundo de fantasia.",2011,Animação
+Encontros da Estação no Horizonte,12,Português,Mar Aberto,88,"Em uma antiga estação, duas pessoas se reencontram e redescobrem uma antiga amizade.",2012,Romance
+Vidas da Estação na Travessia,12,Português,Estúdio Horizonte,84,"Em uma antiga estação, uma família enfrenta mudanças enquanto reconstrói seus laços.",2008,Drama
+Confusões da Estação na Travessia,10,Inglês,Mar Aberto,95,"Em uma antiga estação, amigos tentam organizar uma festa e lidam com imprevistos.",2009,Comédia
+Segredos da Estação na Travessia,14,Espanhol,Estúdio Horizonte,106,"Em uma antiga estação, uma investigadora procura pistas após um desaparecimento.",2010,Suspense
+Caminhos da Estação na Travessia,10,Português,Estrela Filmes,117,"Em uma antiga estação, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2011,Aventura
+Retratos da Estação na Travessia,0,Inglês,Olhar Filmes,128,"Em uma antiga estação, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2012,Documentário
+Sinais da Estação na Travessia,12,Espanhol,Órbita Filmes,139,"Em uma antiga estação, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2013,Ficção científica
+Sonhos da Estação na Travessia,0,Português,Estrela Filmes,84,"Em uma antiga estação, uma criança e seus amigos descobrem um mundo de fantasia.",2014,Animação
+Encontros da Estação na Travessia,12,Inglês,Mar Aberto,95,"Em uma antiga estação, duas pessoas se reencontram e redescobrem uma antiga amizade.",2015,Romance
+Vidas do Jardim ao Amanhecer,12,Inglês,Estúdio Horizonte,91,"Em um jardim comunitário, uma família enfrenta mudanças enquanto reconstrói seus laços.",2011,Drama
+Confusões do Jardim ao Amanhecer,10,Espanhol,Mar Aberto,102,"Em um jardim comunitário, amigos tentam organizar uma festa e lidam com imprevistos.",2012,Comédia
+Segredos do Jardim ao Amanhecer,14,Português,Estúdio Horizonte,113,"Em um jardim comunitário, uma investigadora procura pistas após um desaparecimento.",2013,Suspense
+Caminhos do Jardim ao Amanhecer,10,Inglês,Estrela Filmes,124,"Em um jardim comunitário, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2014,Aventura
+Retratos do Jardim ao Amanhecer,0,Espanhol,Olhar Filmes,135,"Em um jardim comunitário, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2015,Documentário
+Sinais do Jardim ao Amanhecer,12,Português,Órbita Filmes,80,"Em um jardim comunitário, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2016,Ficção científica
+Sonhos do Jardim ao Amanhecer,0,Inglês,Estrela Filmes,91,"Em um jardim comunitário, uma criança e seus amigos descobrem um mundo de fantasia.",2017,Animação
+Encontros do Jardim ao Amanhecer,12,Espanhol,Mar Aberto,102,"Em um jardim comunitário, duas pessoas se reencontram e redescobrem uma antiga amizade.",2018,Romance
+Vidas do Jardim na Chuva,12,Espanhol,Estúdio Horizonte,98,"Em um jardim comunitário, uma família enfrenta mudanças enquanto reconstrói seus laços.",2014,Drama
+Confusões do Jardim na Chuva,10,Português,Mar Aberto,109,"Em um jardim comunitário, amigos tentam organizar uma festa e lidam com imprevistos.",2015,Comédia
+Segredos do Jardim na Chuva,14,Inglês,Estúdio Horizonte,120,"Em um jardim comunitário, uma investigadora procura pistas após um desaparecimento.",2016,Suspense
+Caminhos do Jardim na Chuva,10,Espanhol,Estrela Filmes,131,"Em um jardim comunitário, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2017,Aventura
+Retratos do Jardim na Chuva,0,Português,Olhar Filmes,76,"Em um jardim comunitário, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2018,Documentário
+Sinais do Jardim na Chuva,12,Inglês,Órbita Filmes,87,"Em um jardim comunitário, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2019,Ficção científica
+Sonhos do Jardim na Chuva,0,Espanhol,Estrela Filmes,98,"Em um jardim comunitário, uma criança e seus amigos descobrem um mundo de fantasia.",2020,Animação
+Encontros do Jardim na Chuva,12,Português,Mar Aberto,109,"Em um jardim comunitário, duas pessoas se reencontram e redescobrem uma antiga amizade.",1995,Romance
+Vidas do Jardim em Silêncio,12,Português,Estúdio Horizonte,105,"Em um jardim comunitário, uma família enfrenta mudanças enquanto reconstrói seus laços.",2017,Drama
+Confusões do Jardim em Silêncio,10,Inglês,Mar Aberto,116,"Em um jardim comunitário, amigos tentam organizar uma festa e lidam com imprevistos.",2018,Comédia
+Segredos do Jardim em Silêncio,14,Espanhol,Estúdio Horizonte,127,"Em um jardim comunitário, uma investigadora procura pistas após um desaparecimento.",2019,Suspense
+Caminhos do Jardim em Silêncio,10,Português,Estrela Filmes,138,"Em um jardim comunitário, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2020,Aventura
+Retratos do Jardim em Silêncio,0,Inglês,Olhar Filmes,83,"Em um jardim comunitário, moradores compartilham histórias sobre seu cotidiano e suas tradições.",1995,Documentário
+Sinais do Jardim em Silêncio,12,Espanhol,Órbita Filmes,94,"Em um jardim comunitário, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",1996,Ficção científica
+Sonhos do Jardim em Silêncio,0,Português,Estrela Filmes,105,"Em um jardim comunitário, uma criança e seus amigos descobrem um mundo de fantasia.",1997,Animação
+Encontros do Jardim em Silêncio,12,Inglês,Mar Aberto,116,"Em um jardim comunitário, duas pessoas se reencontram e redescobrem uma antiga amizade.",1998,Romance
+Vidas do Jardim no Inverno,12,Inglês,Estúdio Horizonte,112,"Em um jardim comunitário, uma família enfrenta mudanças enquanto reconstrói seus laços.",2020,Drama
+Confusões do Jardim no Inverno,10,Espanhol,Mar Aberto,123,"Em um jardim comunitário, amigos tentam organizar uma festa e lidam com imprevistos.",1995,Comédia
+Segredos do Jardim no Inverno,14,Português,Estúdio Horizonte,134,"Em um jardim comunitário, uma investigadora procura pistas após um desaparecimento.",1996,Suspense
+Caminhos do Jardim no Inverno,10,Inglês,Estrela Filmes,79,"Em um jardim comunitário, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",1997,Aventura
+Retratos do Jardim no Inverno,0,Espanhol,Olhar Filmes,90,"Em um jardim comunitário, moradores compartilham histórias sobre seu cotidiano e suas tradições.",1998,Documentário
+Sinais do Jardim no Inverno,12,Português,Órbita Filmes,101,"Em um jardim comunitário, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",1999,Ficção científica
+Sonhos do Jardim no Inverno,0,Inglês,Estrela Filmes,112,"Em um jardim comunitário, uma criança e seus amigos descobrem um mundo de fantasia.",2000,Animação
+Encontros do Jardim no Inverno,12,Espanhol,Mar Aberto,123,"Em um jardim comunitário, duas pessoas se reencontram e redescobrem uma antiga amizade.",2001,Romance
+Vidas do Jardim ao Entardecer,12,Espanhol,Estúdio Horizonte,119,"Em um jardim comunitário, uma família enfrenta mudanças enquanto reconstrói seus laços.",1997,Drama
+Confusões do Jardim ao Entardecer,10,Português,Mar Aberto,130,"Em um jardim comunitário, amigos tentam organizar uma festa e lidam com imprevistos.",1998,Comédia
+Segredos do Jardim ao Entardecer,14,Inglês,Estúdio Horizonte,75,"Em um jardim comunitário, uma investigadora procura pistas após um desaparecimento.",1999,Suspense
+Caminhos do Jardim ao Entardecer,10,Espanhol,Estrela Filmes,86,"Em um jardim comunitário, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2000,Aventura
+Retratos do Jardim ao Entardecer,0,Português,Olhar Filmes,97,"Em um jardim comunitário, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2001,Documentário
+Sinais do Jardim ao Entardecer,12,Inglês,Órbita Filmes,108,"Em um jardim comunitário, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2002,Ficção científica
+Sonhos do Jardim ao Entardecer,0,Espanhol,Estrela Filmes,119,"Em um jardim comunitário, uma criança e seus amigos descobrem um mundo de fantasia.",2003,Animação
+Encontros do Jardim ao Entardecer,12,Português,Mar Aberto,130,"Em um jardim comunitário, duas pessoas se reencontram e redescobrem uma antiga amizade.",2004,Romance
+Vidas do Jardim em Festa,12,Português,Estúdio Horizonte,126,"Em um jardim comunitário, uma família enfrenta mudanças enquanto reconstrói seus laços.",2000,Drama
+Confusões do Jardim em Festa,10,Inglês,Mar Aberto,137,"Em um jardim comunitário, amigos tentam organizar uma festa e lidam com imprevistos.",2001,Comédia
+Segredos do Jardim em Festa,14,Espanhol,Estúdio Horizonte,82,"Em um jardim comunitário, uma investigadora procura pistas após um desaparecimento.",2002,Suspense
+Caminhos do Jardim em Festa,10,Português,Estrela Filmes,93,"Em um jardim comunitário, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2003,Aventura
+Retratos do Jardim em Festa,0,Inglês,Olhar Filmes,104,"Em um jardim comunitário, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2004,Documentário
+Sinais do Jardim em Festa,12,Espanhol,Órbita Filmes,115,"Em um jardim comunitário, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2005,Ficção científica
+Sonhos do Jardim em Festa,0,Português,Estrela Filmes,126,"Em um jardim comunitário, uma criança e seus amigos descobrem um mundo de fantasia.",2006,Animação
+Encontros do Jardim em Festa,12,Inglês,Mar Aberto,137,"Em um jardim comunitário, duas pessoas se reencontram e redescobrem uma antiga amizade.",2007,Romance
+Vidas do Jardim no Horizonte,12,Inglês,Estúdio Horizonte,133,"Em um jardim comunitário, uma família enfrenta mudanças enquanto reconstrói seus laços.",2003,Drama
+Confusões do Jardim no Horizonte,10,Espanhol,Mar Aberto,78,"Em um jardim comunitário, amigos tentam organizar uma festa e lidam com imprevistos.",2004,Comédia
+Segredos do Jardim no Horizonte,14,Português,Estúdio Horizonte,89,"Em um jardim comunitário, uma investigadora procura pistas após um desaparecimento.",2005,Suspense
+Caminhos do Jardim no Horizonte,10,Inglês,Estrela Filmes,100,"Em um jardim comunitário, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2006,Aventura
+Retratos do Jardim no Horizonte,0,Espanhol,Olhar Filmes,111,"Em um jardim comunitário, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2007,Documentário
+Sinais do Jardim no Horizonte,12,Português,Órbita Filmes,122,"Em um jardim comunitário, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2008,Ficção científica
+Sonhos do Jardim no Horizonte,0,Inglês,Estrela Filmes,133,"Em um jardim comunitário, uma criança e seus amigos descobrem um mundo de fantasia.",2009,Animação
+Encontros do Jardim no Horizonte,12,Espanhol,Mar Aberto,78,"Em um jardim comunitário, duas pessoas se reencontram e redescobrem uma antiga amizade.",2010,Romance
+Vidas do Jardim na Travessia,12,Espanhol,Estúdio Horizonte,140,"Em um jardim comunitário, uma família enfrenta mudanças enquanto reconstrói seus laços.",2006,Drama
+Confusões do Jardim na Travessia,10,Português,Mar Aberto,85,"Em um jardim comunitário, amigos tentam organizar uma festa e lidam com imprevistos.",2007,Comédia
+Segredos do Jardim na Travessia,14,Inglês,Estúdio Horizonte,96,"Em um jardim comunitário, uma investigadora procura pistas após um desaparecimento.",2008,Suspense
+Caminhos do Jardim na Travessia,10,Espanhol,Estrela Filmes,107,"Em um jardim comunitário, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2009,Aventura
+Retratos do Jardim na Travessia,0,Português,Olhar Filmes,118,"Em um jardim comunitário, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2010,Documentário
+Sinais do Jardim na Travessia,12,Inglês,Órbita Filmes,129,"Em um jardim comunitário, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2011,Ficção científica
+Sonhos do Jardim na Travessia,0,Espanhol,Estrela Filmes,140,"Em um jardim comunitário, uma criança e seus amigos descobrem um mundo de fantasia.",2012,Animação
+Encontros do Jardim na Travessia,12,Português,Mar Aberto,85,"Em um jardim comunitário, duas pessoas se reencontram e redescobrem uma antiga amizade.",2013,Romance
+Vidas do Rio ao Amanhecer,12,Português,Estúdio Horizonte,81,"Em uma comunidade à beira do rio, uma família enfrenta mudanças enquanto reconstrói seus laços.",2009,Drama
+Confusões do Rio ao Amanhecer,10,Inglês,Mar Aberto,92,"Em uma comunidade à beira do rio, amigos tentam organizar uma festa e lidam com imprevistos.",2010,Comédia
+Segredos do Rio ao Amanhecer,14,Espanhol,Estúdio Horizonte,103,"Em uma comunidade à beira do rio, uma investigadora procura pistas após um desaparecimento.",2011,Suspense
+Caminhos do Rio ao Amanhecer,10,Português,Estrela Filmes,114,"Em uma comunidade à beira do rio, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2012,Aventura
+Retratos do Rio ao Amanhecer,0,Inglês,Olhar Filmes,125,"Em uma comunidade à beira do rio, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2013,Documentário
+Sinais do Rio ao Amanhecer,12,Espanhol,Órbita Filmes,136,"Em uma comunidade à beira do rio, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2014,Ficção científica
+Sonhos do Rio ao Amanhecer,0,Português,Estrela Filmes,81,"Em uma comunidade à beira do rio, uma criança e seus amigos descobrem um mundo de fantasia.",2015,Animação
+Encontros do Rio ao Amanhecer,12,Inglês,Mar Aberto,92,"Em uma comunidade à beira do rio, duas pessoas se reencontram e redescobrem uma antiga amizade.",2016,Romance
+Vidas do Rio na Chuva,12,Inglês,Estúdio Horizonte,88,"Em uma comunidade à beira do rio, uma família enfrenta mudanças enquanto reconstrói seus laços.",2012,Drama
+Confusões do Rio na Chuva,10,Espanhol,Mar Aberto,99,"Em uma comunidade à beira do rio, amigos tentam organizar uma festa e lidam com imprevistos.",2013,Comédia
+Segredos do Rio na Chuva,14,Português,Estúdio Horizonte,110,"Em uma comunidade à beira do rio, uma investigadora procura pistas após um desaparecimento.",2014,Suspense
+Caminhos do Rio na Chuva,10,Inglês,Estrela Filmes,121,"Em uma comunidade à beira do rio, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2015,Aventura
+Retratos do Rio na Chuva,0,Espanhol,Olhar Filmes,132,"Em uma comunidade à beira do rio, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2016,Documentário
+Sinais do Rio na Chuva,12,Português,Órbita Filmes,77,"Em uma comunidade à beira do rio, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2017,Ficção científica
+Sonhos do Rio na Chuva,0,Inglês,Estrela Filmes,88,"Em uma comunidade à beira do rio, uma criança e seus amigos descobrem um mundo de fantasia.",2018,Animação
+Encontros do Rio na Chuva,12,Espanhol,Mar Aberto,99,"Em uma comunidade à beira do rio, duas pessoas se reencontram e redescobrem uma antiga amizade.",2019,Romance
+Vidas do Rio em Silêncio,12,Espanhol,Estúdio Horizonte,95,"Em uma comunidade à beira do rio, uma família enfrenta mudanças enquanto reconstrói seus laços.",2015,Drama
+Confusões do Rio em Silêncio,10,Português,Mar Aberto,106,"Em uma comunidade à beira do rio, amigos tentam organizar uma festa e lidam com imprevistos.",2016,Comédia
+Segredos do Rio em Silêncio,14,Inglês,Estúdio Horizonte,117,"Em uma comunidade à beira do rio, uma investigadora procura pistas após um desaparecimento.",2017,Suspense
+Caminhos do Rio em Silêncio,10,Espanhol,Estrela Filmes,128,"Em uma comunidade à beira do rio, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2018,Aventura
+Retratos do Rio em Silêncio,0,Português,Olhar Filmes,139,"Em uma comunidade à beira do rio, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2019,Documentário
+Sinais do Rio em Silêncio,12,Inglês,Órbita Filmes,84,"Em uma comunidade à beira do rio, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2020,Ficção científica
+Sonhos do Rio em Silêncio,0,Espanhol,Estrela Filmes,95,"Em uma comunidade à beira do rio, uma criança e seus amigos descobrem um mundo de fantasia.",1995,Animação
+Encontros do Rio em Silêncio,12,Português,Mar Aberto,106,"Em uma comunidade à beira do rio, duas pessoas se reencontram e redescobrem uma antiga amizade.",1996,Romance
+Vidas do Rio no Inverno,12,Português,Estúdio Horizonte,102,"Em uma comunidade à beira do rio, uma família enfrenta mudanças enquanto reconstrói seus laços.",2018,Drama
+Confusões do Rio no Inverno,10,Inglês,Mar Aberto,113,"Em uma comunidade à beira do rio, amigos tentam organizar uma festa e lidam com imprevistos.",2019,Comédia
+Segredos do Rio no Inverno,14,Espanhol,Estúdio Horizonte,124,"Em uma comunidade à beira do rio, uma investigadora procura pistas após um desaparecimento.",2020,Suspense
+Caminhos do Rio no Inverno,10,Português,Estrela Filmes,135,"Em uma comunidade à beira do rio, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",1995,Aventura
+Retratos do Rio no Inverno,0,Inglês,Olhar Filmes,80,"Em uma comunidade à beira do rio, moradores compartilham histórias sobre seu cotidiano e suas tradições.",1996,Documentário
+Sinais do Rio no Inverno,12,Espanhol,Órbita Filmes,91,"Em uma comunidade à beira do rio, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",1997,Ficção científica
+Sonhos do Rio no Inverno,0,Português,Estrela Filmes,102,"Em uma comunidade à beira do rio, uma criança e seus amigos descobrem um mundo de fantasia.",1998,Animação
+Encontros do Rio no Inverno,12,Inglês,Mar Aberto,113,"Em uma comunidade à beira do rio, duas pessoas se reencontram e redescobrem uma antiga amizade.",1999,Romance
+Vidas do Rio ao Entardecer,12,Inglês,Estúdio Horizonte,109,"Em uma comunidade à beira do rio, uma família enfrenta mudanças enquanto reconstrói seus laços.",1995,Drama
+Confusões do Rio ao Entardecer,10,Espanhol,Mar Aberto,120,"Em uma comunidade à beira do rio, amigos tentam organizar uma festa e lidam com imprevistos.",1996,Comédia
+Segredos do Rio ao Entardecer,14,Português,Estúdio Horizonte,131,"Em uma comunidade à beira do rio, uma investigadora procura pistas após um desaparecimento.",1997,Suspense
+Caminhos do Rio ao Entardecer,10,Inglês,Estrela Filmes,76,"Em uma comunidade à beira do rio, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",1998,Aventura
+Retratos do Rio ao Entardecer,0,Espanhol,Olhar Filmes,87,"Em uma comunidade à beira do rio, moradores compartilham histórias sobre seu cotidiano e suas tradições.",1999,Documentário
+Sinais do Rio ao Entardecer,12,Português,Órbita Filmes,98,"Em uma comunidade à beira do rio, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2000,Ficção científica
+Sonhos do Rio ao Entardecer,0,Inglês,Estrela Filmes,109,"Em uma comunidade à beira do rio, uma criança e seus amigos descobrem um mundo de fantasia.",2001,Animação
+Encontros do Rio ao Entardecer,12,Espanhol,Mar Aberto,120,"Em uma comunidade à beira do rio, duas pessoas se reencontram e redescobrem uma antiga amizade.",2002,Romance
+Vidas do Rio em Festa,12,Espanhol,Estúdio Horizonte,116,"Em uma comunidade à beira do rio, uma família enfrenta mudanças enquanto reconstrói seus laços.",1998,Drama
+Confusões do Rio em Festa,10,Português,Mar Aberto,127,"Em uma comunidade à beira do rio, amigos tentam organizar uma festa e lidam com imprevistos.",1999,Comédia
+Segredos do Rio em Festa,14,Inglês,Estúdio Horizonte,138,"Em uma comunidade à beira do rio, uma investigadora procura pistas após um desaparecimento.",2000,Suspense
+Caminhos do Rio em Festa,10,Espanhol,Estrela Filmes,83,"Em uma comunidade à beira do rio, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2001,Aventura
+Retratos do Rio em Festa,0,Português,Olhar Filmes,94,"Em uma comunidade à beira do rio, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2002,Documentário
+Sinais do Rio em Festa,12,Inglês,Órbita Filmes,105,"Em uma comunidade à beira do rio, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2003,Ficção científica
+Sonhos do Rio em Festa,0,Espanhol,Estrela Filmes,116,"Em uma comunidade à beira do rio, uma criança e seus amigos descobrem um mundo de fantasia.",2004,Animação
+Encontros do Rio em Festa,12,Português,Mar Aberto,127,"Em uma comunidade à beira do rio, duas pessoas se reencontram e redescobrem uma antiga amizade.",2005,Romance
+Vidas do Rio no Horizonte,12,Português,Estúdio Horizonte,123,"Em uma comunidade à beira do rio, uma família enfrenta mudanças enquanto reconstrói seus laços.",2001,Drama
+Confusões do Rio no Horizonte,10,Inglês,Mar Aberto,134,"Em uma comunidade à beira do rio, amigos tentam organizar uma festa e lidam com imprevistos.",2002,Comédia
+Segredos do Rio no Horizonte,14,Espanhol,Estúdio Horizonte,79,"Em uma comunidade à beira do rio, uma investigadora procura pistas após um desaparecimento.",2003,Suspense
+Caminhos do Rio no Horizonte,10,Português,Estrela Filmes,90,"Em uma comunidade à beira do rio, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2004,Aventura
+Retratos do Rio no Horizonte,0,Inglês,Olhar Filmes,101,"Em uma comunidade à beira do rio, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2005,Documentário
+Sinais do Rio no Horizonte,12,Espanhol,Órbita Filmes,112,"Em uma comunidade à beira do rio, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2006,Ficção científica
+Sonhos do Rio no Horizonte,0,Português,Estrela Filmes,123,"Em uma comunidade à beira do rio, uma criança e seus amigos descobrem um mundo de fantasia.",2007,Animação
+Encontros do Rio no Horizonte,12,Inglês,Mar Aberto,134,"Em uma comunidade à beira do rio, duas pessoas se reencontram e redescobrem uma antiga amizade.",2008,Romance
+Vidas do Rio na Travessia,12,Inglês,Estúdio Horizonte,130,"Em uma comunidade à beira do rio, uma família enfrenta mudanças enquanto reconstrói seus laços.",2004,Drama
+Confusões do Rio na Travessia,10,Espanhol,Mar Aberto,75,"Em uma comunidade à beira do rio, amigos tentam organizar uma festa e lidam com imprevistos.",2005,Comédia
+Segredos do Rio na Travessia,14,Português,Estúdio Horizonte,86,"Em uma comunidade à beira do rio, uma investigadora procura pistas após um desaparecimento.",2006,Suspense
+Caminhos do Rio na Travessia,10,Inglês,Estrela Filmes,97,"Em uma comunidade à beira do rio, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2007,Aventura
+Retratos do Rio na Travessia,0,Espanhol,Olhar Filmes,108,"Em uma comunidade à beira do rio, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2008,Documentário
+Sinais do Rio na Travessia,12,Português,Órbita Filmes,119,"Em uma comunidade à beira do rio, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2009,Ficção científica
+Sonhos do Rio na Travessia,0,Inglês,Estrela Filmes,130,"Em uma comunidade à beira do rio, uma criança e seus amigos descobrem um mundo de fantasia.",2010,Animação
+Encontros do Rio na Travessia,12,Espanhol,Mar Aberto,75,"Em uma comunidade à beira do rio, duas pessoas se reencontram e redescobrem uma antiga amizade.",2011,Romance
+Vidas da Cidade ao Amanhecer,12,Espanhol,Estúdio Horizonte,137,"Em uma cidade do interior, uma família enfrenta mudanças enquanto reconstrói seus laços.",2007,Drama
+Confusões da Cidade ao Amanhecer,10,Português,Mar Aberto,82,"Em uma cidade do interior, amigos tentam organizar uma festa e lidam com imprevistos.",2008,Comédia
+Segredos da Cidade ao Amanhecer,14,Inglês,Estúdio Horizonte,93,"Em uma cidade do interior, uma investigadora procura pistas após um desaparecimento.",2009,Suspense
+Caminhos da Cidade ao Amanhecer,10,Espanhol,Estrela Filmes,104,"Em uma cidade do interior, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2010,Aventura
+Retratos da Cidade ao Amanhecer,0,Português,Olhar Filmes,115,"Em uma cidade do interior, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2011,Documentário
+Sinais da Cidade ao Amanhecer,12,Inglês,Órbita Filmes,126,"Em uma cidade do interior, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2012,Ficção científica
+Sonhos da Cidade ao Amanhecer,0,Espanhol,Estrela Filmes,137,"Em uma cidade do interior, uma criança e seus amigos descobrem um mundo de fantasia.",2013,Animação
+Encontros da Cidade ao Amanhecer,12,Português,Mar Aberto,82,"Em uma cidade do interior, duas pessoas se reencontram e redescobrem uma antiga amizade.",2014,Romance
+Vidas da Cidade na Chuva,12,Português,Estúdio Horizonte,78,"Em uma cidade do interior, uma família enfrenta mudanças enquanto reconstrói seus laços.",2010,Drama
+Confusões da Cidade na Chuva,10,Inglês,Mar Aberto,89,"Em uma cidade do interior, amigos tentam organizar uma festa e lidam com imprevistos.",2011,Comédia
+Segredos da Cidade na Chuva,14,Espanhol,Estúdio Horizonte,100,"Em uma cidade do interior, uma investigadora procura pistas após um desaparecimento.",2012,Suspense
+Caminhos da Cidade na Chuva,10,Português,Estrela Filmes,111,"Em uma cidade do interior, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2013,Aventura
+Retratos da Cidade na Chuva,0,Inglês,Olhar Filmes,122,"Em uma cidade do interior, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2014,Documentário
+Sinais da Cidade na Chuva,12,Espanhol,Órbita Filmes,133,"Em uma cidade do interior, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2015,Ficção científica
+Sonhos da Cidade na Chuva,0,Português,Estrela Filmes,78,"Em uma cidade do interior, uma criança e seus amigos descobrem um mundo de fantasia.",2016,Animação
+Encontros da Cidade na Chuva,12,Inglês,Mar Aberto,89,"Em uma cidade do interior, duas pessoas se reencontram e redescobrem uma antiga amizade.",2017,Romance
+Vidas da Cidade em Silêncio,12,Inglês,Estúdio Horizonte,85,"Em uma cidade do interior, uma família enfrenta mudanças enquanto reconstrói seus laços.",2013,Drama
+Confusões da Cidade em Silêncio,10,Espanhol,Mar Aberto,96,"Em uma cidade do interior, amigos tentam organizar uma festa e lidam com imprevistos.",2014,Comédia
+Segredos da Cidade em Silêncio,14,Português,Estúdio Horizonte,107,"Em uma cidade do interior, uma investigadora procura pistas após um desaparecimento.",2015,Suspense
+Caminhos da Cidade em Silêncio,10,Inglês,Estrela Filmes,118,"Em uma cidade do interior, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2016,Aventura
+Retratos da Cidade em Silêncio,0,Espanhol,Olhar Filmes,129,"Em uma cidade do interior, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2017,Documentário
+Sinais da Cidade em Silêncio,12,Português,Órbita Filmes,140,"Em uma cidade do interior, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",2018,Ficção científica
+Sonhos da Cidade em Silêncio,0,Inglês,Estrela Filmes,85,"Em uma cidade do interior, uma criança e seus amigos descobrem um mundo de fantasia.",2019,Animação
+Encontros da Cidade em Silêncio,12,Espanhol,Mar Aberto,96,"Em uma cidade do interior, duas pessoas se reencontram e redescobrem uma antiga amizade.",2020,Romance
+Vidas da Cidade no Inverno,12,Espanhol,Estúdio Horizonte,92,"Em uma cidade do interior, uma família enfrenta mudanças enquanto reconstrói seus laços.",2016,Drama
+Confusões da Cidade no Inverno,10,Português,Mar Aberto,103,"Em uma cidade do interior, amigos tentam organizar uma festa e lidam com imprevistos.",2017,Comédia
+Segredos da Cidade no Inverno,14,Inglês,Estúdio Horizonte,114,"Em uma cidade do interior, uma investigadora procura pistas após um desaparecimento.",2018,Suspense
+Caminhos da Cidade no Inverno,10,Espanhol,Estrela Filmes,125,"Em uma cidade do interior, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",2019,Aventura
+Retratos da Cidade no Inverno,0,Português,Olhar Filmes,136,"Em uma cidade do interior, moradores compartilham histórias sobre seu cotidiano e suas tradições.",2020,Documentário
+Sinais da Cidade no Inverno,12,Inglês,Órbita Filmes,81,"Em uma cidade do interior, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",1995,Ficção científica
+Sonhos da Cidade no Inverno,0,Espanhol,Estrela Filmes,92,"Em uma cidade do interior, uma criança e seus amigos descobrem um mundo de fantasia.",1996,Animação
+Encontros da Cidade no Inverno,12,Português,Mar Aberto,103,"Em uma cidade do interior, duas pessoas se reencontram e redescobrem uma antiga amizade.",1997,Romance
+Vidas da Cidade ao Entardecer,12,Português,Estúdio Horizonte,99,"Em uma cidade do interior, uma família enfrenta mudanças enquanto reconstrói seus laços.",2019,Drama
+Confusões da Cidade ao Entardecer,10,Inglês,Mar Aberto,110,"Em uma cidade do interior, amigos tentam organizar uma festa e lidam com imprevistos.",2020,Comédia
+Segredos da Cidade ao Entardecer,14,Espanhol,Estúdio Horizonte,121,"Em uma cidade do interior, uma investigadora procura pistas após um desaparecimento.",1995,Suspense
+Caminhos da Cidade ao Entardecer,10,Português,Estrela Filmes,132,"Em uma cidade do interior, um grupo de viajantes enfrenta desafios em busca de um lugar perdido.",1996,Aventura
+Retratos da Cidade ao Entardecer,0,Inglês,Olhar Filmes,77,"Em uma cidade do interior, moradores compartilham histórias sobre seu cotidiano e suas tradições.",1997,Documentário
+Sinais da Cidade ao Entardecer,12,Espanhol,Órbita Filmes,88,"Em uma cidade do interior, pesquisadores investigam um fenômeno que desafia o conhecimento atual.",1998,Ficção científica
+Sonhos da Cidade ao Entardecer,0,Português,Estrela Filmes,99,"Em uma cidade do interior, uma criança e seus amigos descobrem um mundo de fantasia.",1999,Animação
+Encontros da Cidade ao Entardecer,12,Inglês,Mar Aberto,110,"Em uma cidade do interior, duas pessoas se reencontram e redescobrem uma antiga amizade.",2000,Romance
