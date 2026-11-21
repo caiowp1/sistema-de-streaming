@@ -33,9 +33,9 @@ Os itens marcados registram artefatos produzidos e verificações documentadas; 
 
 ## Próxima etapa: consultas e cenários controlados
 
-1. Consolidar períodos relativos. Proposta anterior: último mês = mês civil anterior completo; último trimestre = três meses civis anteriores completos, distinguindo de trimestre civil e de últimos 90 dias. Com referência em 19/11/2026: outubro e agosto–outubro, respectivamente. A referência configurada da demonstração não substitui automaticamente o relógio real em uso normal.
-2. Definir resultado da consulta 7 para planos sem clientes ativos e explicitar que o máximo de dispositivos é propriedade fixa do plano. Preço e limites do plano não têm versionamento histórico; documentar essa limitação.
-3. Criar cada consulta com parâmetros e explicar o que cada linha do resultado representa. Interpretações regionais das consultas 5 e 8 estão no README.
+1. Períodos adotados: último mês = mês civil anterior completo; último trimestre = três meses civis anteriores completos. Com referência em 19/11/2026: outubro e agosto–outubro, respectivamente. A referência da demonstração deve ser ajustada para outros usos.
+2. Na consulta 7, plano sem clientes ativos retorna contagem zero e média NULL. O máximo de dispositivos é propriedade fixa do plano; preço e limites não têm versionamento histórico.
+3. Consultas escritas com filtros editáveis; verificar resultados e explicar cada linha. Interpretações regionais das consultas 5 e 8 estão no README.
 4. Preparar dados pequenos com resultados conhecidos, em banco de teste separado: zero sessões, zero avaliações, média abaixo/igual/acima de 4, múltiplos gêneros, reassistidas, empates, clientes inativos, trocas/retorno de plano e fronteiras de datas.
 5. Comparar respostas esperadas com o MySQL e executar as consultas na carga ampliada. Integridade da carga não substitui correção dos resultados.
 

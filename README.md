@@ -4,7 +4,7 @@ Trabalho de Banco de Dados com evolução planejada para aplicação de portfól
 
 - **SGBD:** MySQL; execução local registrada com MySQL 8.0.46.
 - **Entrega:** 02/12/2026 às 23h55 (America/Manaus).
-- **Estado:** modelos e DDL concluídos; gerador implementado e carga de 500 filmes, 1.000 clientes e 50.000 sessões verificada no MySQL. Consultas e reprodução integral em Linux pendentes.
+- **Estado:** modelos e DDL concluídos; gerador implementado e carga de 500 filmes, 1.000 clientes e 50.000 sessões executada no MySQL. Dez consultas escritas; validação das consultas e reprodução integral em Linux pendentes.
 
 ## Documentação
 
@@ -17,12 +17,13 @@ Trabalho de Banco de Dados com evolução planejada para aplicação de portfól
 | [Manual do gerador](docs/manual-gerador.md) | Instalação, carga e verificações |
 | [AGENTS.md](AGENTS.md) | Orientações para continuar o trabalho com o Codex |
 
-Os modelos e o manual foram preservados nesta organização. Menções antigas a próximas etapas nesses documentos devem ser confrontadas com o estado atual em STATUS.md. Regras operacionais consolidadas e interpretações das consultas estão abaixo; convenções ainda pendentes estão no roteiro.
+O estado das verificações está em STATUS.md. Regras operacionais e interpretações das consultas estão abaixo.
 
 ## Código e dados
 
 - [sql/criacao.sql](sql/criacao.sql): criação do banco vazio e das 11 tabelas.
 - [sql/verificacao_carga.sql](sql/verificacao_carga.sql): 12 verificações; selecionar explicitamente o banco antes de executar.
+- [sql/consultas.sql](sql/consultas.sql): dez consultas obrigatórias, com comentários para ajustar os filtros.
 - `scripts/`: gerador Python e carga transacional pelo MySQL Connector/Python.
 - `seeds/`: CSV de regiões, planos, gêneros e 500 filmes fictícios.
 - [requirements.txt](requirements.txt): versões das dependências.
@@ -40,7 +41,7 @@ A instalação e os comandos de execução estão no manual. A carga exige tabel
 - O gerador atual usa referência 19/11/2026 e semente 10; os padrões são 20 clientes e 150 sessões, com volume configurável na carga. A carga ampliada usa 1.000 clientes e 50.000 sessões. Versões, CSV, parâmetros e ambiente devem ser mantidos para reprodução.
 - Sessões são sorteadas nos 365 dias anteriores à referência, em dias de assinatura vigente, com filmes disponíveis e já lançados, qualidade permitida e duração entre 1 e a duração do filme. Uma sessão por cliente por dia simplifica a simultaneidade. Avaliações/favoritos têm pares únicos e datas a partir do cadastro; assistir antes de avaliar não é uma exigência adotada.
 - CSV semente fornece dados-base; semente numérica controla aleatoriedade. O catálogo é sintético, com fórmulas narrativas repetidas. Há 5 regiões em 2 países, 3 planos e 8 gêneros. A escala é uma escolha acadêmica; o professor não fixou um número mínimo explícito.
-- Usar uma referência temporal comum nas consultas e verificações. Não calcular uma referência diferente por cliente, filme ou filtro. A interpretação de último mês/trimestre ainda precisa ser consolidada; ver ROTEIRO.md.
+- Usar uma referência temporal comum nas consultas e verificações. Para as consultas, último mês significa mês civil anterior completo e último trimestre significa três meses civis anteriores completos. A referência demonstrativa é 19/11/2026; ajustar as datas para outros usos.
 
 ## Alternar entre computadores
 
