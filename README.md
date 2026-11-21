@@ -1,64 +1,56 @@
 # Sistema de streaming
 
-Trabalho de Banco de Dados com evolução planejada para aplicação de portfólio.
+Projeto de banco de dados para uma plataforma de streaming de filmes. O repositório contém a modelagem, a criação do banco MySQL, um gerador de dados fictícios e consultas para explorar catálogo, assinaturas e consumo.
 
-- **SGBD:** MySQL; execução local registrada com MySQL 8.0.46.
-- **Entrega:** 02/12/2026 às 23h55 (America/Manaus).
-- **Estado:** modelos e DDL concluídos; gerador implementado e carga de 500 filmes, 1.000 clientes e 50.000 sessões executada no MySQL. Dez consultas escritas; validação das consultas e reprodução integral em Linux pendentes.
+## Funcionalidades
 
-## Documentação
+- Cadastro de clientes, regiões, filmes, gêneros e planos.
+- Catálogo com disponibilidade de filmes por região.
+- Histórico de assinaturas e mudanças de plano.
+- Registro de sessões de visualização, favoritos e avaliações.
+- Consultas de consumo, preferências, avaliações e planos.
+- Geração e carga transacional de dados de exemplo.
 
-| Arquivo | Finalidade |
+O projeto reúne o banco de dados e suas ferramentas de carga e consulta; não inclui uma aplicação de reprodução de vídeo.
+
+## Tecnologias e requisitos
+
+- MySQL 8; criação e carga já executadas com MySQL 8.0.46.
+- Python 3 com `venv` e `pip`; ambiente de referência com Python 3.14.
+- Dependências Python listadas em [requirements.txt](requirements.txt).
+
+## Estrutura
+
+| Caminho | Conteúdo |
 | --- | --- |
-| [ROTEIRO.md](ROTEIRO.md) | Calendário e checklist da entrega |
-| [STATUS.md](STATUS.md) | Resultados verificados, limitações e próximo passo |
-| [Modelo conceitual](docs/modelo-conceitual.md) | Entidades, atributos, relacionamentos e cardinalidades |
-| [Modelo relacional](docs/modelo-relacional.md) | Relações, chaves e normalização até a 3FN |
-| [Manual do gerador](docs/manual-gerador.md) | Instalação, carga e verificações |
-| [AGENTS.md](AGENTS.md) | Orientações para continuar o trabalho com o Codex |
+| [docs/modelo-conceitual.md](docs/modelo-conceitual.md) | Entidades, relacionamentos e cardinalidades |
+| [docs/modelo-relacional.md](docs/modelo-relacional.md) | Esquema relacional e normalização |
+| [docs/manual-gerador.md](docs/manual-gerador.md) | Instruções detalhadas de instalação, carga e consultas |
+| [sql/criacao.sql](sql/criacao.sql) | Criação do banco e das 11 tabelas |
+| [sql/consultas.sql](sql/consultas.sql) | Consultas com filtros ajustáveis |
+| [sql/verificacao_carga.sql](sql/verificacao_carga.sql) | Verificações de integridade da carga |
+| `scripts/` | Gerador de dados e carga no MySQL |
+| `seeds/` | CSV de regiões, planos, gêneros e filmes fictícios |
 
-O estado das verificações está em STATUS.md. Regras operacionais e interpretações das consultas estão abaixo.
+## Como executar
 
-## Código e dados
+Crie um ambiente virtual Python, instale as dependências e execute `sql/criacao.sql` no MySQL para criar o banco vazio `sistema_streaming`. Em seguida, execute o gerador a partir da pasta do projeto:
 
-- [sql/criacao.sql](sql/criacao.sql): criação do banco vazio e das 11 tabelas.
-- [sql/verificacao_carga.sql](sql/verificacao_carga.sql): 12 verificações; selecionar explicitamente o banco antes de executar.
-- [sql/consultas.sql](sql/consultas.sql): dez consultas obrigatórias, com comentários para ajustar os filtros.
-- `scripts/`: gerador Python e carga transacional pelo MySQL Connector/Python.
-- `seeds/`: CSV de regiões, planos, gêneros e 500 filmes fictícios.
-- [requirements.txt](requirements.txt): versões das dependências.
-
-A instalação e os comandos de execução estão no manual. A carga exige tabelas vazias e não deve ser executada simultaneamente por dois processos. O SQL de criação não apaga um banco existente.
-
-## Regras e limites do escopo
-
-- Cliente mantém id como PK e email obrigatório e único. Avaliações e favoritos guardam uma associação atual por cliente/filme; alterar nota não cria histórico de avaliações. Remover e favoritar novamente corresponde a uma nova data.
-- Assinaturas preservam histórico: na troca, encerrar o período anterior e inserir outro registro, sem excluir a assinatura antiga ou substituir seu plano. Vigência inclui início e exclui término; término NULL representa período aberto. Cliente ativo tem assinatura vigente na data de referência. Retornar a um plano anterior deve ser outro período; esse cenário ainda precisa ser conferido nos testes das consultas.
-- Região de residência é fixa no escopo e pertence a um país. Disponibilidade de catálogo e consumo são fatos distintos. Filmes podem ter vários gêneros; seus minutos entram em cada gênero associado, portanto somar os grupos pode exceder o tempo total assistido.
-- Consulta 5: hipótese adotada de consumo global dos filmes disponíveis em Y, incluindo títulos com zero sessões no mês. Consulta 8: consumo dos clientes residentes em Y. Essas interpretações devem ser explicitadas no relatório.
-- Nota inteira de 1 a 5; durações em minutos e positivas; preços e limite de dispositivos positivos, sem planos gratuitos. Qualidades ordenadas: SD, HD, FULL_HD, 4K.
-- O DDL garante chaves e restrições locais. Coerência entre registros/tabelas (sobreposição de assinaturas, vigência, disponibilidade e limite de qualidade) é produzida pelo gerador e conferida por verificações, não garantida integralmente pelo DDL.
-- O gerador atual usa referência 19/11/2026 e semente 10; os padrões são 20 clientes e 150 sessões, com volume configurável na carga. A carga ampliada usa 1.000 clientes e 50.000 sessões. Versões, CSV, parâmetros e ambiente devem ser mantidos para reprodução.
-- Sessões são sorteadas nos 365 dias anteriores à referência, em dias de assinatura vigente, com filmes disponíveis e já lançados, qualidade permitida e duração entre 1 e a duração do filme. Uma sessão por cliente por dia simplifica a simultaneidade. Avaliações/favoritos têm pares únicos e datas a partir do cadastro; assistir antes de avaliar não é uma exigência adotada.
-- CSV semente fornece dados-base; semente numérica controla aleatoriedade. O catálogo é sintético, com fórmulas narrativas repetidas. Há 5 regiões em 2 países, 3 planos e 8 gêneros. A escala é uma escolha acadêmica; o professor não fixou um número mínimo explícito.
-- Usar uma referência temporal comum nas consultas e verificações. Para as consultas, último mês significa mês civil anterior completo e último trimestre significa três meses civis anteriores completos. A referência demonstrativa é 19/11/2026; ajustar as datas para outros usos.
-
-## Alternar entre computadores
-
-Repositório privado: [caiowp1/sistema-de-streaming](https://github.com/caiowp1/sistema-de-streaming).
-
-Na primeira utilização em outro computador, com Git instalado e acesso autenticado:
-
-```sh
-git clone https://github.com/caiowp1/sistema-de-streaming.git
+```bash
+.venv/bin/python scripts/carga_mysql.py --clientes 1000 --sessoes 50000
 ```
 
-Abra a pasta clonada como projeto no Codex. Antes de começar, execute `git status`; se não houver alterações pendentes, execute `git pull --ff-only`. Se houver alterações locais ou conflito, preserve os arquivos e examine a situação antes de atualizar.
+No Windows, use `.\.venv\Scripts\python.exe` no lugar de `.venv/bin/python`. O programa solicita usuário e senha no terminal e conecta em `127.0.0.1:3306`. A carga exige que todas as tabelas estejam vazias; não execute duas cargas simultaneamente. O script de criação não apaga bancos existentes.
 
-Ao terminar, atualize STATUS.md e revise `git status` e `git diff`. Registre apenas os arquivos pretendidos em um commit e envie com `git push`. Confirme o envio antes de trocar de computador; evite editar a mesma etapa simultaneamente nos dois.
+Para instruções completas de preparação, verificação e execução das consultas, consulte o [manual](docs/manual-gerador.md). O procedimento completo em Linux ainda precisa ser reproduzido; as consultas precisam ser validadas com cenários de resultado conhecido e na carga ampliada.
 
-O Git transfere os arquivos registrados. Chats do Codex, credenciais, ambientes virtuais, programas instalados e banco MySQL local não são transferidos. O banco de cada computador precisa ser criado e populado conforme o manual. Não publique senhas ou tokens.
+## Dados e regras
 
-Pedido para retomar em outro chat:
+O catálogo contém 500 filmes fictícios. A carga ampliada gera 1.000 clientes e 50.000 sessões; sem parâmetros, o gerador usa 20 clientes e 150 sessões. A referência padrão é 19/11/2026 e a semente numérica é 10, configuradas em [scripts/configuracao.py](scripts/configuracao.py).
 
-> Leia AGENTS.md, README.md, ROTEIRO.md e STATUS.md. Confira o Git e retome o próximo passo. Ao terminar, atualize o status e registre as decisões relevantes.
+- Avaliações e favoritos registram a associação atual de cada cliente com cada filme.
+- Assinaturas mantêm histórico; o início da vigência é inclusivo e o término é exclusivo. Término `NULL` representa um período aberto.
+- Um filme pode ter vários gêneros. Seu tempo assistido é contabilizado em cada gênero associado.
+- A consulta 5 considera o consumo global dos filmes disponíveis na região selecionada; a consulta 8 considera sessões de clientes residentes nessa região.
+- Nas consultas de demonstração, último mês significa o mês civil anterior completo e último trimestre significa os três meses civis anteriores completos. Ajuste a data de referência conforme necessário.
+- O esquema garante chaves e restrições locais; regras entre registros, como sobreposição de assinaturas e disponibilidade de filmes, são tratadas pelo gerador e verificadas pelo script de integridade.
