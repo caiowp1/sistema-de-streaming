@@ -1,10 +1,10 @@
 # Modelo conceitual — versão de 15/11/2026
 
-Versão transcrita do diagrama enviado pelo aluno e revisada contra o enunciado e as dez consultas. A imagem original permanece no chat; o diagrama abaixo é uma representação equivalente em Mermaid, com outra notação visual. Não representa ainda o esquema relacional nem o DDL. Os PDFs não foram incluídos no repositório.
+O modelo conceitual descreve as entidades, os atributos e os relacionamentos do sistema de streaming, com base nos requisitos do problema e nas dez consultas obrigatórias. O diagrama em Mermaid apresenta os relacionamentos em notação alternativa ao [diagrama conceitual](modelo_conceitual.png). O esquema relacional e o DDL correspondem a etapas distintas da modelagem.
 
 ## Entidades e atributos
 
-Os nomes foram transcritos do desenho. Cada `id` é o identificador da respectiva entidade.
+As tabelas a seguir apresentam as entidades e seus atributos. Cada `id` é o identificador da respectiva entidade.
 
 | Entidade | Atributos |
 | --- | --- |
@@ -23,7 +23,7 @@ Os nomes foram transcritos do desenho. Cada `id` é o identificador da respectiv
 
 ## Diagrama equivalente
 
-A representação abaixo mostra os relacionamentos; os atributos estão nas tabelas acima. Os rótulos distinguem os vários relacionamentos que no desenho se chamam “Contém”. A participação mínima e máxima exata está na tabela seguinte.
+A representação abaixo apresenta os relacionamentos, enquanto os atributos estão nas tabelas anteriores. Os rótulos descrevem a função de cada relacionamento denominado “Contém” no diagrama conceitual. Os limites mínimos e máximos de participação estão detalhados na tabela de cardinalidades.
 
 ```mermaid
 erDiagram
@@ -38,9 +38,9 @@ erDiagram
     FILME }o--|{ GENERO : classificacao
 ```
 
-## Cardinalidades do desenho
+## Cardinalidades dos relacionamentos
 
-A coluna de participação informa quantas ocorrências do relacionamento cada instância da entidade pode ter. Não confundir com a posição dos símbolos na notação Mermaid.
+A coluna de participação informa quantas ocorrências do relacionamento cada instância da entidade pode ter. Esses limites estão expressos textualmente, independentemente da posição dos símbolos na notação Mermaid.
 
 | Relacionamento | Participação de uma entidade | Participação da outra entidade |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ A coluna de participação informa quantas ocorrências do relacionamento cada i
 
 ## Regras propostas para consolidar na próxima etapa
 
-Estas regras complementam o desenho e ainda precisam ser confirmadas ao elaborar o esquema. Não são novas exigências do professor.
+As regras a seguir complementam o modelo conceitual e representam propostas para consolidação no esquema relacional. São decisões de modelagem adicionais aos requisitos explícitos do enunciado.
 
 1. Assinatura: término ausente indica período aberto; quando preenchido, deve ser posterior ao início. Adotar intervalos de vigência [início, término), sem sobreposição para um mesmo cliente. Uma assinatura futura aberta não torna o cliente ativo antes do início.
 2. Cliente ativo: possui assinatura vigente na data de referência.
