@@ -1,6 +1,6 @@
 # Esquema relacional e normalização — sistema de streaming
 
-Versão de 15/11/2026. Base: modelo conceitual, modelo lógico revisado no brModelo e material do professor 06 - As Formas Normais.pdf, páginas 3–12.
+Versão de 15/11/2026. O esquema tem como base o modelo conceitual e o modelo lógico representado no brModelo. A análise de normalização utiliza como referência o documento 06 - As Formas Normais.pdf, páginas 3–12.
 
 ## Notação
 
